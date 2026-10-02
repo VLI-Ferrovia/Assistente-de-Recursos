@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./escavadeira.png">
 
     <title>Assistente de Recursos</title>
 
@@ -509,6 +510,10 @@
             outline: 3px solid #F5A623;
             outline-offset: 2px;
         }
+        #input-trecho:focus-visible, #input-km:focus-visible {
+            outline: 2px solid rgba(255, 255, 255, 0.55);
+            outline-offset: 1px;
+        }
     </style>
 </head>
 
@@ -587,7 +592,7 @@
                         type="text"
                         id="input-trecho"
                         placeholder="Ex: ZCE, ZCEZHI"
-                        class="w-full pl-9 pr-3 py-1.5 bg-slate-950/50 border border-white/20 rounded-md text-xs text-white uppercase placeholder:text-slate-400 focus:border-vli-orange focus:ring-1 focus:ring-vli-orange outline-none">
+                        class="w-full pl-9 pr-3 py-1.5 bg-slate-950/50 border border-white/20 rounded-md text-xs text-white uppercase placeholder:text-slate-400 focus:border-white/50 focus:ring-0 outline-none">
                 </div>
             </div>
 
@@ -601,7 +606,7 @@
                         type="text"
                         id="input-km"
                         placeholder="Ex: 472+069"
-                        class="w-full pl-9 pr-3 py-1.5 bg-slate-950/50 border border-white/20 rounded-md text-xs text-white placeholder:text-slate-400 focus:border-vli-orange focus:ring-1 focus:ring-vli-orange outline-none">
+                        class="w-full pl-9 pr-3 py-1.5 bg-slate-950/50 border border-white/20 rounded-md text-xs text-white placeholder:text-slate-400 focus:border-white/50 focus:ring-0 outline-none">
                 </div>
             </div>
 
@@ -7177,6 +7182,8 @@ const SBS_CSV_EMBEDDIDO = document.getElementById('sbs-fixed-data').textContent;
 
 let blocosData = [];
 
+let geometriasKMViaCarregadas = false;
+
 let recursosData = [];
 
 let recursosTerceirosData = [];
@@ -7203,6 +7210,8 @@ let state = {
     selectedThirdPartyIds: new Set(),
 
     incidentMarker: null,
+
+    searchedRailwayLayer: null,
 
     sbsLayer: null,
 
@@ -7423,6 +7432,8 @@ async function carregarBaseSegmentos() {
             throw new Error('A base SBS não possui trechos válidos.');
         }
 
+        await enriquecerBlocosComGeometriaKMVia();
+
         if (linhasInvalidas) {
             console.warn(`Linhas SBS ignoradas por erro de leitura: ${linhasInvalidas}.`);
         }
@@ -7441,6 +7452,158 @@ async function carregarBaseSegmentos() {
 
 }
 
+
+
+function chaveGeometriaSegmento(nome, trackCode, kmIn, kmOut) {
+
+    const formatarKM = valor => {
+        const km = parseKMToNumber(valor);
+        return Number.isFinite(km) ? km.toFixed(6) : '';
+    };
+
+    return [
+        normalizarIdentificador(nome),
+        normalizarIdentificador(trackCode),
+        formatarKM(kmIn),
+        formatarKM(kmOut)
+    ].join('|');
+
+}
+
+
+function calcularDistanciasGeometria(coordenadas) {
+
+    const distancias = [0];
+    const raioTerra = 6371008.8;
+    const radianos = valor => valor * Math.PI / 180;
+
+    for (let indice = 1; indice < coordenadas.length; indice++) {
+        const [lonAnterior, latAnterior] = coordenadas[indice - 1];
+        const [lonAtual, latAtual] = coordenadas[indice];
+        const deltaLat = radianos(latAtual - latAnterior);
+        const deltaLon = radianos(lonAtual - lonAnterior);
+        const latitudeAnterior = radianos(latAnterior);
+        const latitudeAtual = radianos(latAtual);
+        const haversine = Math.sin(deltaLat / 2) ** 2 +
+            Math.cos(latitudeAnterior) * Math.cos(latitudeAtual) *
+            Math.sin(deltaLon / 2) ** 2;
+        const distancia = 2 * raioTerra * Math.atan2(
+            Math.sqrt(haversine),
+            Math.sqrt(1 - haversine)
+        );
+
+        distancias.push(distancias[indice - 1] + distancia);
+    }
+
+    return distancias;
+
+}
+
+
+async function enriquecerBlocosComGeometriaKMVia() {
+
+    try {
+        const response = await fetch('KMVIA-REDE.geojson');
+        if (!response.ok) {
+            throw new Error(`KMVIA-REDE.geojson respondeu HTTP ${response.status}.`);
+        }
+
+        const geojson = await response.json();
+        if (geojson?.type !== 'FeatureCollection' || !Array.isArray(geojson.features)) {
+            throw new Error('KMVIA-REDE.geojson não contém uma FeatureCollection válida.');
+        }
+
+        const geometriasPorChave = new Map();
+        for (const feature of geojson.features) {
+            const propriedades = feature.properties || {};
+            const coordenadas = feature.geometry?.type === 'LineString'
+                ? feature.geometry.coordinates
+                : [];
+            if (!Array.isArray(coordenadas) || coordenadas.length < 2) {
+                continue;
+            }
+
+            const chave = chaveGeometriaSegmento(
+                propriedades.name,
+                propriedades.trackCode,
+                propriedades.kmIn,
+                propriedades.kmOut
+            );
+            if (!geometriasPorChave.has(chave)) {
+                geometriasPorChave.set(chave, coordenadas);
+            }
+        }
+
+        let segmentosCorrespondentes = 0;
+        for (const bloco of blocosData) {
+            const chave = chaveGeometriaSegmento(
+                bloco.nome,
+                bloco.track_code,
+                bloco.km_in,
+                bloco.km_out
+            );
+            const coordenadas = geometriasPorChave.get(chave);
+            if (!coordenadas) {
+                continue;
+            }
+
+            const distancias = calcularDistanciasGeometria(coordenadas);
+            if (distancias.at(-1) <= 0) {
+                continue;
+            }
+
+            bloco.coordenadasKMVia = coordenadas;
+            bloco.distanciasKMVia = distancias;
+            segmentosCorrespondentes++;
+        }
+
+        geometriasKMViaCarregadas = true;
+        console.log(`Geometria KM Via carregada: ${segmentosCorrespondentes}/${blocosData.length} segmentos.`);
+    }
+    catch (error) {
+        geometriasKMViaCarregadas = false;
+        console.warn('Geometria KM Via indisponível; usando interpolação pelos extremos do CSV.', error);
+    }
+
+}
+
+
+function interpolarPontoNaGeometriaKMVia(bloco, proporcao) {
+
+    const coordenadas = bloco.coordenadasKMVia;
+    const distancias = bloco.distanciasKMVia;
+    if (!coordenadas?.length || !distancias?.length) {
+        return null;
+    }
+
+    const distanciaAlvo = Math.max(0, Math.min(1, proporcao)) * distancias.at(-1);
+    let inicio = 0;
+    let fim = distancias.length - 1;
+
+    while (inicio < fim) {
+        const meio = Math.floor((inicio + fim) / 2);
+        if (distancias[meio] < distanciaAlvo) {
+            inicio = meio + 1;
+        }
+        else {
+            fim = meio;
+        }
+    }
+
+    const indice = Math.max(1, inicio);
+    const distanciaTrecho = distancias[indice] - distancias[indice - 1];
+    const fracaoTrecho = distanciaTrecho
+        ? (distanciaAlvo - distancias[indice - 1]) / distanciaTrecho
+        : 0;
+    const pontoInicial = coordenadas[indice - 1];
+    const pontoFinal = coordenadas[indice];
+
+    return {
+        lon: pontoInicial[0] + fracaoTrecho * (pontoFinal[0] - pontoInicial[0]),
+        lat: pontoInicial[1] + fracaoTrecho * (pontoFinal[1] - pontoInicial[1])
+    };
+
+}
 
 
 /* ============================================================
@@ -7920,19 +8083,19 @@ function resolverLocalizacaoSB(sbInformada, km) {
     const partesSB = String(sbInformada)
         .toUpperCase()
         .split(/[^A-Z0-9]+/)
-        .filter(parte => parte.length >= 2)
         .map(normalizarIdentificador);
-    const candidatosParciais = blocosData.filter(bloco => {
+    const buscaParcialValida = sbNormalizada.length >= 3 &&
+        partesSB.length > 0 &&
+        partesSB.every(parte => parte.length >= 3);
+    const candidatosParciais = buscaParcialValida ? blocosData.filter(bloco => {
         const nome = normalizarIdentificador(bloco.nome);
-        return partesSB.length && partesSB.every(parte => nome.includes(parte));
-    });
+        return partesSB.every(parte => nome.includes(parte));
+    }) : [];
     const candidatosSB = candidatosExatos.length
         ? candidatosExatos
         : candidatosParciais;
     const sbEncontrada = candidatosSB.length > 0;
-    const candidatos = sbEncontrada
-        ? candidatosSB
-        : blocosData;
+    const candidatos = candidatosSB;
     const candidatosValidos = candidatos.filter(bloco =>
         Number.isFinite(bloco.km_in) &&
         Number.isFinite(bloco.km_out) &&
@@ -7942,7 +8105,10 @@ function resolverLocalizacaoSB(sbInformada, km) {
     );
 
     if (!candidatosValidos.length) {
-        return { erro: `Não há segmento com KM e coordenadas válidas para ${sbInformada}` };
+        const detalhe = !candidatosSB.length && sbNormalizada.length < 3
+            ? 'Informe ao menos 3 caracteres ou use uma referência exata.'
+            : `Nenhuma SB contém todos os termos informados (${sbInformada}).`;
+        return { erro: detalhe };
     }
 
     const avaliados = candidatosValidos.map(bloco => {
@@ -7965,7 +8131,6 @@ function resolverLocalizacaoSB(sbInformada, km) {
     const bloco = melhor.bloco;
     const kmProjetado = melhor.kmProjetado;
     const aproximado = !sbEncontrada ||
-        candidatosExatos.length === 0 ||
         melhor.distanciaKM > 0 ||
         avaliados.some(item =>
             item.distanciaKM === melhor.distanciaKM &&
@@ -7976,6 +8141,7 @@ function resolverLocalizacaoSB(sbInformada, km) {
     const proporcao = bloco.km_out === bloco.km_in
         ? 0
         : (kmProjetado - bloco.km_in) / (bloco.km_out - bloco.km_in);
+    const pontoGeometria = interpolarPontoNaGeometriaKMVia(bloco, proporcao);
     const avisos = [];
 
     if (!sbEncontrada) {
@@ -7997,8 +8163,8 @@ function resolverLocalizacaoSB(sbInformada, km) {
         proporcao,
         kmProjetado,
         aproximado,
-        lat: bloco.lat_in + proporcao * (bloco.lat_out - bloco.lat_in),
-        lon: bloco.lon_in + proporcao * (bloco.lon_out - bloco.lon_in),
+        lat: pontoGeometria?.lat ?? bloco.lat_in + proporcao * (bloco.lat_out - bloco.lat_in),
+        lon: pontoGeometria?.lon ?? bloco.lon_in + proporcao * (bloco.lon_out - bloco.lon_in),
         erro: avisos.join('. ')
     };
 
@@ -9392,7 +9558,8 @@ function desenharCamadaSBS() {
         const linhaFerroviaria = L.featureGroup().addTo(camada);
         const estiloContornoFerroviario = {
             color: '#FFFFFF',
-            weight: 6,
+            weight: 9,
+            opacity: 0.9,
             interactive: false,
             smoothFactor: 1,
             lineCap: 'round',
@@ -9402,7 +9569,8 @@ function desenharCamadaSBS() {
             attribution: 'Traçado ferroviário: VLI Geoinfo',
             style: {
                 color: '#7a7a7a',
-                weight: 4,
+                weight: 7,
+                opacity: 0.9,
                 smoothFactor: 1,
                 lineCap: 'round',
                 lineJoin: 'round'
@@ -9584,8 +9752,8 @@ function desenharCamadaSBSFallback(camada, renderizadores) {
             }
 
             const coordenadas = [[bloco.lat_in, bloco.lon_in], [bloco.lat_out, bloco.lon_out]];
-            const contorno = L.polyline(coordenadas, { color: '#FFFFFF', weight: 6, interactive: false, renderer: renderizadores.contorno, smoothFactor: 1, lineCap: 'round', lineJoin: 'round' });
-            const linha = L.polyline(coordenadas, { color: '#7a7a7a', weight: 4, renderer: renderizadores.linha, smoothFactor: 1, lineCap: 'round', lineJoin: 'round' });
+            const contorno = L.polyline(coordenadas, { color: '#FFFFFF', weight: 9, opacity: 0.9, interactive: false, renderer: renderizadores.contorno, smoothFactor: 1, lineCap: 'round', lineJoin: 'round' });
+            const linha = L.polyline(coordenadas, { color: '#7a7a7a', weight: 7, opacity: 0.9, renderer: renderizadores.linha, smoothFactor: 1, lineCap: 'round', lineJoin: 'round' });
             linha.on('click', event => abrirPopupSBS(event, bloco));
             contorno.addTo(camada);
             linha.addTo(camada);
@@ -9926,6 +10094,12 @@ function limparMapa() {
     state.markers = [];
 
 
+    if (state.searchedRailwayLayer) {
+        state.map.removeLayer(state.searchedRailwayLayer);
+        state.searchedRailwayLayer = null;
+    }
+
+
     if (
         state.incidentMarker
     ) {
@@ -10148,8 +10322,8 @@ async function executarBuscaGlobal() {
     };
 
     window.pontoBusca = {
-        lat: state.currentSearch.mapLat,
-        lng: state.currentSearch.mapLon,
+        lat: state.currentSearch.lat,
+        lng: state.currentSearch.lon,
         km: state.currentSearch.km
     };
 
