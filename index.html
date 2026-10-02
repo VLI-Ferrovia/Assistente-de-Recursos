@@ -178,6 +178,25 @@
             .logo-vli-inline { width: 36px; height: 18px; }
             .header-pop-button { padding: 4px 6px !important; font-size: 9px !important; }
         }
+        @media (min-width: 768px) {
+            :root { --ui-base-size: 18px; }
+            .titulo-principal { font-size: 18px; }
+            .subtitulo { font-size: 15px; }
+            #resource-selector-tree summary,
+            #resource-selector-tree .resource-tree-summary,
+            #resource-selector-tree .resource-layer-row,
+            #resource-selector-tree .station-list-item,
+            #resource-selector-tree details label,
+            #resource-selector-tree details p,
+            #resource-selector-tree details button,
+            #resource-selector-tree .text-slate-500,
+            #resource-selector-tree .text-slate-800,
+            #resource-selector-tree .text-emerald-800 {
+                font-size: 12px !important;
+            }
+            .map-resource-legend,
+            .map-resource-legend__item { font-size: 12px; }
+        }
         body { font-family: 'Inter', sans-serif; overflow: hidden; }
         .hidden { display: none !important; }
         ::-webkit-scrollbar { width: 6px; height: 6px; }
