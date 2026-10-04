@@ -11,9 +11,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Criar arquivo de teste
+      - name: Criar arquivo
         run: |
-          echo '{"status":"ok","data":"teste power automate"}' > teste.json
+          echo '${{ toJson(github.event.client_payload) }}' > teste.json
 
       - name: Commit
         run: |
@@ -22,6 +22,7 @@ jobs:
 
           git add teste.json
 
-          git diff --staged --quiet || git commit -m "teste dispatch"
+          git diff --staged --quiet || git commit -m "atualizacao"
 
           git push
+``
