@@ -1,1 +1,4 @@
-{"status":"ok","data":"teste power automate"}
+{
+  "origem": "powerautomate",
+  "teste": "funcionando"
+}
