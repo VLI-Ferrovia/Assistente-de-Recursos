@@ -1,27 +1,24 @@
-name: Teste Dispatch
+name: Atualizar Bases CCO
 
 on:
   repository_dispatch:
-    types: [atualizar-recursos]
+    types: [atualizar-csv]
 
 jobs:
-  teste:
+  salvar-dados:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout do Repositório
+        uses: actions/checkout@v3
 
-      - name: Criar arquivo
+      - name: Decodificar e Salvar o Ficheiro CSV
         run: |
-          echo '${{ toJson(github.event.client_payload) }}' > teste.json
+          echo "${{ github.event.client.payload.csv_base64 }}" | base64 --decode > "${{ github.event.client.payload.arquivo }}"
 
-      - name: Commit
+      - name: Enviar Alterações para o Repositório
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git add teste.json
-
-          git diff --staged --quiet || git commit -m "atualizacao"
-
+          git config --global user.name "Robo Automacao CCO"
+          git config --global user.email "automacao@vli.com"
+          git add "${{ github.event.client.payload.arquivo }}"
+          git commit -m "Atualizacao automatica do ficheiro ${{ github.event.client.payload.arquivo }}"
           git push
