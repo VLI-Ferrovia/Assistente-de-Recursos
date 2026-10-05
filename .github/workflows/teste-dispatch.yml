@@ -16,13 +16,12 @@ jobs:
 
       - name: Decodificar e Salvar o Ficheiro CSV
         run: |
-          echo "${{ github.event.client.payload.csv_base64 }}" | base64 --decode > "${{ github.event.client.payload.arquivo }}"
+          echo "${{ github.event.client_payload.csv_base64 }}" | base64 --decode > "${{ github.event.client_payload.arquivo }}"
 
       - name: Enviar Alterações para o Repositório
         run: |
           git config --global user.name "Robo Automacao CCO"
           git config --global user.email "automacao@vli.com"
-          git add "${{ github.event.client.payload.arquivo }}"
-          # Verifica se há alterações reais antes de commitar para evitar falhas
-          git diff --staged --quiet || git commit -m "Atualizacao automatica do ficheiro ${{ github.event.client.payload.arquivo }}"
+          git add "${{ github.event.client_payload.arquivo }}"
+          git diff --staged --quiet || git commit -m "Atualizacao automatica do ficheiro ${{ github.event.client_payload.arquivo }}"
           git push || echo "Sem alterações para enviar"
