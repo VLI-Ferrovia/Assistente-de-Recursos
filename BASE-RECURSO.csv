@@ -16,8 +16,8 @@ SLocações;Alagoinhas;BA;Minas Bahia;Guindaste;(75) 9966-0333;(75) 99949-5309;R
 SLocações;Alagoinhas;BA;Minas Bahia;Pá Carregadeira;(75) 9966-0333;(75) 99949-5309;Renilda ou Jaie;Não
 SLocações;Alagoinhas;BA;Minas Bahia;Retroescavadeira;(75) 9966-0333;(75) 99949-5309;Renilda ou Jaie;Não
 SLocações;Alagoinhas;BA;Minas Bahia;Trator;(75) 9966-0333;(75) 99949-5309;Renilda ou Jaie;Não
-Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Carreta Prancha;(75) 3242-2654 ;(75) 99977-1562;Julio;Não
 Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Carreta Prancha;(75) 3242-2654;(75) 99977-1562;Julio;Não
+Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Carreta Prancha;(75) 3242-2654 ;(75) 99977-1562;Julio;Não
 Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Guindauto;(75) 3242-2654 ;(75) 99977-1562;Julio;Não
 Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Guindauto;(75) 3242-2654;(75) 99977-1562;Julio;Não
 Ajax Guinchos;Amélia Rodrigues;BA;Minas Bahia;Lança;(75) 3242-2654 ;(75) 99977-1562;Julio;Não
@@ -678,6 +678,7 @@ Wb Servicos e Maquinas Ltda;Santa Luz;BA;Minas Bahia;Pá Carregadeira;(75) 99194
 Wb Servicos e Maquinas Ltda;Santa Luz;BA;Minas Bahia;Retroescavadeira;(75) 99194-1928;(75) 9222-7799;Alexsandro;Não
 Equipamax Locação de Equipamentos;Santa Luzia;MG;Centro Leste;Escavadeira;(31) 3500-8225;;Não informado;Não
 Equipamax Locação de Equipamentos;Santa Luzia;MG;Centro Leste;Retroescavadeira;(31) 3500-8225;;Não informado;Não
+TESTE 123;Santa Luzia;MG;Leste;Guindaste;;;;
 SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Caminhão Basculante;(22) 3851-0669;(22) 98115-7958;Leonardo Almeida;Não
 SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Carreta Prancha;(22) 3851-0669;(22) 98115-7958;Leonardo Almeida;Não
 SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Escavadeira;(22) 3851-0669;(22) 98115-7958;Leonardo Almeida;Não
@@ -685,10 +686,10 @@ SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Guindauto;(22) 3851-06
 SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Pá Carregadeira;(22) 3851-0669;(22) 98115-7958;Leonardo Almeida;Não
 SO DIESEL COMERCIAL;Santo Antônio de Pádua;RJ;Minas Rio;Retroescavadeira;(22) 3851-0669;(22) 98115-7958;Leonardo Almeida;Não
 Auto Socorro 2 Irmãos;Santo Antônio do Monte;MG;Centro Leste;Guincho;(37) 3415-1066;;Não informado;Não
-Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Carreta Prancha;(37) 3281-1792;(37)999382750 - (37)991177404;Pedro / Thiago;Não
 Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Carreta Prancha;(37) 3281-1792;(37)999382750 / (37)991177404;Pedro / Thiago;Não
-Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Guincho;(37) 3281-1792;(37)999382750 / (37)991177404;Pedro / Thiago;Não
+Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Carreta Prancha;(37) 3281-1792;(37)999382750 - (37)991177404;Pedro / Thiago;Não
 Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Guincho;(37) 3281-1792;(37)999382750 - (37)991177404;Pedro / Thiago;Não
+Auto Socorro Samonte;Santo Antônio do Monte;MG;Centro Leste;Guincho;(37) 3281-1792;(37)999382750 / (37)991177404;Pedro / Thiago;Não
 Loca Tudo;Santos;SP;Centro Sudeste;Container;(13) 3219-2928;(13) 9772-7627;Não informado;Não
 Loca Tudo;Santos;SP;Centro Sudeste;Gerador;(13) 3219-2928;(13) 9772-7627;Não informado;Não
 MBessa Locações;Santos;SP;Centro Sudeste;Caminhão Basculante;;(13) 99767-6057;Alex Bessa;Não
@@ -712,8 +713,8 @@ Sistermi - Locação de Máquinas;Serra;ES;Minas Rio;Guindaste;(27) 3398-1236;(2
 Sistermi - Locação de Máquinas;Serra;ES;Minas Rio;Guindauto;(27) 3398-1236;(27) 99890-6560;Roberto José;Não
 Sistermi - Locação de Máquinas;Serra;ES;Minas Rio;Pá Carregadeira;(27) 3398-1236;(27) 99890-6560;Roberto José;Não
 Sistermi - Locação de Máquinas;Serra;ES;Minas Rio;Retroescavadeira;(27) 3398-1236;(27) 99890-6560;Roberto José;Não
-Sertemil Engenharia Comercio e Locação;Sertãozinho;SP;Centro Sudeste;Guindaste;(16) 3946-2880;(16) 99624--2880;Márcio;Sim
 Sertemil Engenharia Comercio e Locação;Sertãozinho;SP;Centro Sudeste;Guindaste;(16) 3946-2880;(16) 99624--2880;Márcio;Não
+Sertemil Engenharia Comercio e Locação;Sertãozinho;SP;Centro Sudeste;Guindaste;(16) 3946-2880;(16) 99624--2880;Márcio;Sim
 Locaminas Caminhões Pipa;Sete Lagoas;MG;Centro Leste;Caminhão Pipa;(31) 9 9518-3626;(31) 98517-9106 ;Não informado;Não
 RXR Locações;Sete Lagoas;MG;Centro Leste;Guindaste;(31) 3776-5200;(31) 97112-5200;Lucinéia/Tatiane;Não
 RXR Locações;Sete Lagoas;MG;Centro Leste;Guindauto;(31) 3776-5200;(31) 97112-5200;Lucinéia/Tatiane;Não
