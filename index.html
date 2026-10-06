@@ -7766,30 +7766,76 @@ async function carregarRecursosTerceiros() {
             throw new Error(`Falha ao baixar BASE-RECURSO.xlsx (HTTP ${response.status}).`);
         }
 
-        const parsed = Papa.parse(await response.text(), {
-            header: true,
-            skipEmptyLines: true,
-            delimiter: ';',
-            transformHeader: header => String(header).replace(/^\uFEFF/, '').trim()
-        });
-        const colunas = (parsed.meta.fields || []).map(normalizarIdentificador);
-        if (!colunas.includes('NOME') || !colunas.includes('RECURSO') ||
-            !parsed.data.some(row => row.nome || row.recurso)) {
+        const arrayBuffer = await response.arrayBuffer();
+        let linhas = [];
+
+        if (typeof XLSX !== 'undefined') {
+            try {
+                const workbook = XLSX.read(arrayBuffer, { type: 'array' });
+                const primeiraAba = workbook.SheetNames[0];
+                linhas = primeiraAba ? XLSX.utils.sheet_to_json(workbook.Sheets[primeiraAba], { defval: '', raw: false }) : [];
+            }
+            catch (error) {
+                console.warn('Falha ao ler BASE-RECURSO como XLSX, tentando fallback para CSV.', error);
+                linhas = [];
+            }
+        }
+
+        if (!linhas.length) {
+            const texto = new TextDecoder('utf-8').decode(arrayBuffer);
+            const parsed = Papa.parse(texto, {
+                header: true,
+                skipEmptyLines: true,
+                delimiter: ';',
+                transformHeader: header => String(header).replace(/^\uFEFF/, '').trim()
+            });
+            linhas = parsed.data || [];
+        }
+
+        if (!linhas.length) {
             throw new Error('BASE-RECURSO.xlsx sem cabeçalhos ou registros válidos.');
         }
 
-        recursosTerceirosData = parsed.data
+        const linhasNormalizadas = linhas.map(row => {
+            const normalizado = {};
+            Object.entries(row || {}).forEach(([chave, valor]) => {
+                normalizado[normalizarIdentificador(chave)] = valor;
+            });
+            return normalizado;
+        });
+
+        const temDadosValidos = linhasNormalizadas.some(row => {
+            const nome = String(row.NOME || '').trim();
+            const recurso = String(row.RECURSO || '').trim();
+            return nome || recurso;
+        });
+
+        if (!temDadosValidos) {
+            throw new Error('BASE-RECURSO.xlsx sem cabeçalhos ou registros válidos.');
+        }
+
+        const pegarValor = (row, ...aliases) => {
+            for (const alias of aliases) {
+                const valor = row[normalizarIdentificador(alias)];
+                if (valor !== undefined && valor !== null && String(valor).trim() !== '') {
+                    return String(valor).trim();
+                }
+            }
+            return '';
+        };
+
+        recursosTerceirosData = linhasNormalizadas
             .map((row, index) => ({
                 id: `TERC-${String(index + 1).padStart(4, '0')}`,
-                nome: String(row.nome || '').trim(),
-                cidade: String(row.cidade || '').trim().replace(/\s+/g, ' '),
-                estado: String(row.estado || '').trim().replace(/\s+/g, ' '),
-                corredor: String(row.corredor || '').trim(),
-                recurso: String(row.recurso || '').trim(),
-                telefone: String(row.telefone || '').trim(),
-                celular: String(row.celular || '').trim(),
-                responsavel: String(row['responsável'] || '').trim(),
-                cadastrado: String(row.cadastrado || '').trim(),
+                nome: pegarValor(row, 'NOME', 'NOME_FORNECEDOR', 'FORNECEDOR'),
+                cidade: pegarValor(row, 'CIDADE').replace(/\s+/g, ' '),
+                estado: pegarValor(row, 'ESTADO').replace(/\s+/g, ' '),
+                corredor: pegarValor(row, 'CORREDOR'),
+                recurso: pegarValor(row, 'RECURSO'),
+                telefone: pegarValor(row, 'TELEFONE', 'FONE'),
+                celular: pegarValor(row, 'CELULAR', 'WHATSAPP'),
+                responsavel: pegarValor(row, 'RESPONSAVEL', 'RESPONSÁVEL'),
+                cadastrado: pegarValor(row, 'CADASTRADO', 'DATA_CADASTRO'),
                 cidadeKey: '',
                 lat: null,
                 lon: null,
@@ -7797,7 +7843,7 @@ async function carregarRecursosTerceiros() {
             }))
             .filter(row => row.nome || row.recurso);
 
-        console.log(`BASE-RECURSO.csv carregado: ${recursosTerceirosData.length} recursos terceiros.`);
+        console.log(`BASE-RECURSO carregada: ${recursosTerceirosData.length} recursos terceiros.`);
     }
     catch (error) {
         recursosTerceirosData = [];
