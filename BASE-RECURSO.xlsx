@@ -1,0 +1,903 @@
+nome,cidade,estado,corredor,recurso,telefone,celular,responsável,cadastrado
+Robert Terraplanagem,,,Centro Sudeste,Escavadeira,11 97348-3115,11 97348-3115,Robert,
+Robert Terraplanagem,,,Centro Sudeste,Retro,11 97348-3115,11 97348-3115,Robert,
+Start Escavadeira,,,Centro Sudeste,Escavadeira,,16 99280-5852,Carlos Neto carlos.neto@startmsv.com.br,
+Start Escavadeira,,,Centro Sudeste,Retro,,16 99280-5852,Carlos Neto carlos.neto@startmsv.com.br,
+TOP Escavadeira PRV,,,Centro Sudeste,Escavadeira,,,Tiago ,
+TOP Escavadeira PRV,,,Centro Sudeste,Retro,,,Tiago ,
+VR Demolidora,,São  Paulo,Centro Sudeste,Escavadeira,(11) 94726-0972 ,(11) 966394951,Bruno Bueno ou Marcos,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Caminhão Basculante,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Caminhão Pipa,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Carreta Prancha,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Container,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Escavadeira,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Guincho,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Guindaste,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Pá Carregadeira,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Retroescavadeira,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+SLocações,Alagoinhas,BA,Minas Bahia,Trator,(75) 9966-0333,(75) 99949-5309,Renilda ou Jaie,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Carreta Prancha,(75) 3242-2654 ,(75) 99977-1562,Julio,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Carreta Prancha,(75) 3242-2654,(75) 99977-1562,Julio,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Guindauto,(75) 3242-2654 ,(75) 99977-1562,Julio,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Guindauto,(75) 3242-2654,(75) 99977-1562,Julio,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Lança,(75) 3242-2654 ,(75) 99977-1562,Julio,Não
+Ajax Guinchos,Amélia Rodrigues,BA,Minas Bahia,Lança,(75) 3242-2654,(75) 99977-1562,Julio,Não
+Braço de Aço,Araguaina,TO,Centro Norte,Guindaste,,(63) 99201-8068,Daniel Davi/Jésssica,Não
+Rental Service,Araguari,MG,Centro Sudeste,Caminhão Basculante,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Rental Service,Araguari,MG,Centro Sudeste,Carreta Prancha,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Rental Service,Araguari,MG,Centro Sudeste,Escavadeira,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Rental Service,Araguari,MG,Centro Sudeste,Pá Carregadeira,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Rental Service,Araguari,MG,Centro Sudeste,Retroescavadeira,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Rental Service,Araguari,MG,Centro Sudeste,Trator,(34) 98808-6663,(34) 98808-1744,Denise Aparecida,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Caminhão Basculante,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Caminhão Pipa,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Carreta Prancha,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Escavadeira,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Pá Carregadeira,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Retroescavadeira,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+Sincinato Serviços de Locação,Araguari,MG,Centro Sudeste,Trator,(34) 3242-7956,(34) 99294-2062,Anderson,Não
+ZFox Locações,Araguari,MG,Centro Sudeste,Caminhão Pipa,(34) 98808-6663,(34) 98808-1744,Garibalde / Denise,Sim
+ZFox Locações,Araguari,MG,Centro Sudeste,Carreta Prancha,(34) 98808-6663,(34) 98808-1744,Garibalde / Denise,Sim
+ZFox Locações,Araguari,MG,Centro Sudeste,Escavadeira,(34) 98808-6663,(34) 98808-1744,Garibalde / Denise,Sim
+ZFox Locações,Araguari,MG,Centro Sudeste,Motoniveladora,(34) 98808-6663,(34) 98808-1744,Garibalde / Denise,Sim
+ZFox Locações,Araguari,MG,Centro Sudeste,Trator,(34) 98808-6663,(34) 98808-1744,Garibalde / Denise,Sim
+Lok Maq,Araguaína,TO,Centro Norte,Caminhão Basculante,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Carreta Prancha,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Escavadeira,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Guincho,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Guindaste,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Motoniveladora,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Pá Carregadeira,,(63) 99249-3366,Jadson da Luz,Não
+Lok Maq,Araguaína,TO,Centro Norte,Retroescavadeira,,(63) 99249-3366,Jadson da Luz,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Caminhão Basculante,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Caminhão Pipa,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Carreta Prancha,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Escavadeira,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Patrol,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+HPE Terraplanagem,Arantina,MG,Minas Rio,Retroescavadeira,(32) 3296-1526,(24) 99322-3054,Pedro Yuri,Não
+Start Electronics LTDA,Araraquara,SP,Centro Sudeste,Iluminação,,(16)3397-3820,,
+CRL Construtora,Araxá,MG,Centro Leste,Caminhão Basculante,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+CRL Construtora,Araxá,MG,Centro Leste,Caminhão Pipa,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+CRL Construtora,Araxá,MG,Centro Leste,Carreta Prancha,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+CRL Construtora,Araxá,MG,Centro Leste,Escavadeira,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+CRL Construtora,Araxá,MG,Centro Leste,Retroescavadeira,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+CRL Construtora,Araxá,MG,Centro Leste,Trator,(34) 3661-3608,(34) 99148-6228,Thamiris,Não
+Condor Locações de Equipamentos,Araxá,MG,Minas Rio,Guindaste,,(34) 99940-4136,Gaspar Eder,Não
+Condor Locações de Equipamentos,Araxá,MG,Minas Rio,Guindauto,,(34) 99940-4136,Gaspar Eder,Não
+Guindaste Araxá,Araxá,MG,Centro Leste,Guindaste,(34) 3662-1063,,Gaspar Eder,Não
+Rodo Campos,Araxá,MG,Centro Leste,Carreta Prancha,(34) 3664-2221,(34) 98868-0535,Ricardo ou Lorena,Não
+Venloc,Araxá,MG,Centro Leste,Escavadeira,,(34) 98848-9500,Paulo,Não
+Venloc,Araxá,MG,Centro Leste,Retroescavadeira,,(34) 98848-9500,Paulo,Não
+Venloc,Araxá,MG,Centro Leste,Rolo Compactador,,(34) 98848-9500,Paulo,Não
+Adeca transportes,Arcos,MG,Minas Rio,Caminhão Báscula,,(37)991213426,Ademir,Não
+Adeca transportes,Arcos,MG,Minas Rio,Escavadeira 18ton,,(37)991213426,Ademir,Não
+Adeca transportes,Arcos,MG,Minas Rio,Pá Carregadeira,,(37)991213426,Ademir,Não
+CHI terraplagem,Arcos,MG,Minas Rio,Caminhão Pipa,,(37)999075870,Cassio,Não
+CHI terraplagem,Arcos,MG,Minas Rio,Escavadeira 24Ton,,(37)999075870,Cassio,Não
+CHI terraplagem,Arcos,MG,Minas Rio,Patrol,,(37)999075870,Cassio,Não
+CHI terraplagem,Arcos,MG,Minas Rio,Pá Carregadeira,,(37)999075870,Cassio,Não
+Depósito Cardoso,Arcos,MG,Minas Rio,Caçamba,(37) 3351-2382,(37) 999421515 / 99922 2043,Jucimar/ Josiele,Sim
+Depósito Cardoso,Arcos,MG,Minas Rio,Retroescavadeira,(37) 3351-2382,(37) 999421515 / 99922 2043,Jucimar/ Josiele,Sim
+Expresso Cardoso,Arcos,MG,Minas Rio,Caminhão Basculante,(37) 3351-1774,,Não informado,Sim
+Expresso Cardoso,Arcos,MG,Minas Rio,Caminhão Pipa,(37) 3351-1774,,Não informado,Sim
+Expresso Cardoso,Arcos,MG,Minas Rio,Pá Carregadeira,(37) 3351-1774,,Não informado,Sim
+Franco Máquinas,Arcos,MG,Minas Rio,Caminhão Pipa,(37) 3351-1805,(37) 99836-1365,Não informado,Não
+Franco Máquinas,Arcos,MG,Minas Rio,Motoniveladora,(37) 3351-1805,(37) 99836-1365,Não informado,Não
+Franco Máquinas,Arcos,MG,Minas Rio,Pá Carregadeira,(37) 3351-1805,(37) 99836-1365,Não informado,Não
+Franco Máquinas,Arcos,MG,Minas Rio,Retroescavadeira,(37) 3351-1805,(37) 99836-1365,Não informado,Não
+Franco Máquinas,Arcos,MG,Minas Rio,Rolo Compactador,(37) 3351-1805,(37) 99836-1365,Não informado,Não
+Presmontec,Arcos,MG,Minas Rio,Guindaste,(37) 3351-1956,(37) 99821-4344,Não informado,Sim
+Presmontec,Arcos,MG,Minas Rio,Guindauto,(37) 3351-1956,(37) 99821-4344,Não informado,Sim
+Semic transportes ltda,Arcos,MG,Minas Rio,Caminhão Munck,,(37)998238261,Sergio,Sim
+Semic transportes ltda,Arcos,MG,Minas Rio,Guindaste 70ton,,(37)998238261,Sergio,Sim
+V&R Locações de Caminhões,Arcos,MG,Minas Rio,Caminhão Munck,,(37)991069660,Glênio,Não
+V&R Locações de Caminhões,Arcos,MG,Minas Rio,Guindaste 30ton,,(37)991069660,Glênio,Não
+LBB Terraplenagem e Construões,Açailândia,MA,Centro Norte,Escavadeira,(99) 3535 5082,(99) 99122 - 9187,Nair ou Leando,Sim
+Molifer,Açailândia,MA,Centro Norte,Guindaste,(99)3535-5288 ,(99)98138-1515,Altenor,Não
+Sanlurb Saneamento e Limpeza Urbana LTDA,BARRA MANSA,RJ,Minas Rio,Caminhão,,(24) 97404-9262,Ruy Tadeu,Sim
+Sanlurb Saneamento e Limpeza Urbana LTDA,BARRA MANSA,RJ,Minas Rio,Escavadeira,,(24) 97404-9262,Ruy Tadeu,Sim
+Almeida e Melo Locações ltda,Barra Mansa,RJ,Minas Rio,Escavadeira,(24) 974017866,(24) 99916-1218,Alex / Lorenzo,Sim
+Almeida e Melo Locações ltda,Barra Mansa,RJ,Minas Rio,Guindaste,(24) 974017866,(24) 99916-1218,Alex / Lorenzo,Sim
+Almeida e Melo Locações ltda,Barra Mansa,RJ,Minas Rio,Retroescavadeira,(24) 974017866,(24) 99916-1218,Alex / Lorenzo,Sim
+Locacerto,Barra Mansa,RJ,Minas Rio,Caminhão Basculante,(24) 3020-0548,(24) 97403-1299,Raphaela,Não
+Locacerto,Barra Mansa,RJ,Minas Rio,Container,(24) 3020-0548,(24) 97403-1299,Raphaela,Não
+Locacerto,Barra Mansa,RJ,Minas Rio,Guincho,(24) 3020-0548,(24) 97403-1299,Raphaela,Não
+Locacerto,Barra Mansa,RJ,Minas Rio,Guindauto,(24) 3020-0548,(24) 97403-1299,Raphaela,Não
+Locacerto,Barra Mansa,RJ,Minas Rio,Retroescavadeira,(24) 3020-0548,(24) 97403-1299,Raphaela,Não
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Caminhão Basculante,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Caminhão Pipa,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Carreta Prancha,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Escavadeira,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Motoniveladora,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Pá Carregadeira,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Retroescavadeira,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Rolo Compactador,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Rompedor,(24) 3323-5495,,Não informado,Sim
+Luquip Terraplenagem,Barra Mansa,RJ,Minas Rio,Trator,(24) 3323-5495,,Não informado,Sim
+Servi-Sá Auto Guindastes ,Barra Mansa,RJ,Minas Rio,Guindaste,(24) 3323-6838,,Não informado,Não
+Transtruck,Barra Mansa,RJ,Minas Rio,Escavadeira,,24 99994-7179,Laila transtruckmateriais@hotmail.com,
+Transtruck,Barra Mansa,RJ,Minas Rio,caminhão,,24 99994-7179,Laila transtruckmateriais@hotmail.com,
+Transtruck,Barra Mansa,RJ,Minas Rio,caminhão pipa e carreta prancha,,24 99994-7179,Laila transtruckmateriais@hotmail.com,
+Transtruck,Barra Mansa,RJ,Minas Rio,retro escavadeira,,24 99994-7179,Laila transtruckmateriais@hotmail.com,
+Portex,Bauru,SP,Centro Sudeste,Escavadeira,14 99810-7700,14 99735-4442,Saulo e Luiz,
+Portex,Bauru,SP,Centro Sudeste,Retro,14 99810-7700,14 99735-4442,Saulo e Luiz,
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Caminhão Basculante,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Caminhão Pipa,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Escavadeira,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Motoniveladora,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Pá Carregadeira,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Retroescavadeira,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Rolo Compactador,(14) 3238-3652,,Não informado,Não
+RW Terraplenagem e Locação ,Bauru,SP,Centro Sudeste,Trator,(14) 3238-3652,,Não informado,Não
+Lelo,Belem,PA,Centro Norte,Guindaste,,(91) 98578-5150,Aurelio,Não
+Rede Norte Guindaste ,Belem,PA,Centro Norte,Guindaste,,(91)98355-2662,Daniel,Não
+"ALB Transportes, Terraplenagem e Locações",Belo Horizonte,MG,Centro Leste,Caminhão Basculante,(31) 2535-1297 ,(31) 99820-1986,Pedro Landi,Não
+"ALB Transportes, Terraplenagem e Locações",Belo Horizonte,MG,Centro Leste,Carreta Prancha,(31) 2535-1297 ,(31) 99820-1986,Pedro Landi,Não
+"ALB Transportes, Terraplenagem e Locações",Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 2535-1297 ,(31) 99820-1986,Pedro Landi,Não
+Alavanca Transportes,Belo Horizonte,MG,Centro Leste,Carreta Prancha,(31) 3417-1311,(31) 98453-7892,Aparecida,Não
+Alavanca Transportes,Belo Horizonte,MG,Centro Leste,Guincho,(31) 3417-1311,(31) 98453-7892,Aparecida,Não
+Alavanca Transportes,Belo Horizonte,MG,Centro Leste,Guindaste,(31) 3417-1311,(31) 98453-7892,Aparecida,Não
+Alavanca Transportes,Belo Horizonte,MG,Centro Leste,Guindauto,(31) 3417-1311,(31) 98453-7892,Aparecida,Não
+Alavanca Transportes,Belo Horizonte,MG,Centro Leste,Retroescavadeira,(31) 3417-1311,(31) 98453-7892,Aparecida,Não
+Bolbi Movimentação de Cargas Ltda,Belo Horizonte,MG,Centro Leste,Carreta Prancha,(31) 3364-7777,(31) 99107-4452,Stefan Augusto / Cíntia Gabriel,Sim
+Bolbi Movimentação de Cargas Ltda,Belo Horizonte,MG,Centro Leste,Container,(31) 3364-7777,(31) 99107-4452,Stefan Augusto / Cíntia Gabriel,Sim
+Bolbi Movimentação de Cargas Ltda,Belo Horizonte,MG,Centro Leste,Guindaste,(31) 3364-7777,(31) 99107-4452,Stefan Augusto / Cíntia Gabriel,Sim
+Bolbi Movimentação de Cargas Ltda,Belo Horizonte,MG,Centro Leste,Guindauto,(31) 3364-7777,(31) 99107-4452,Stefan Augusto / Cíntia Gabriel,Sim
+Central Loc,Belo Horizonte,MG,Centro Leste,Betoneira,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Central Loc,Belo Horizonte,MG,Centro Leste,Demolidor,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Central Loc,Belo Horizonte,MG,Centro Leste,Furadeira,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Central Loc,Belo Horizonte,MG,Centro Leste,Gerador,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Central Loc,Belo Horizonte,MG,Centro Leste,Martelo,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Central Loc,Belo Horizonte,MG,Centro Leste,Rolo Compactador,(31) 3351-7604,(31) 98979-3089,Helenice Barbosa ,Não
+Satel Terraplanagem,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 3036-0000,,Não informado,Sim
+Satel Terraplanagem,Belo Horizonte,MG,Centro Leste,Motoniveladora,(31) 3036-0000,,Não informado,Sim
+Satel Terraplanagem,Belo Horizonte,MG,Centro Leste,Pá Carregadeira,(31) 3036-0000,,Não informado,Sim
+Satel Terraplanagem,Belo Horizonte,MG,Centro Leste,Retroescavadeira,(31) 3036-0000,,Não informado,Sim
+Satel Terraplanagem,Belo Horizonte,MG,Centro Leste,Trator,(31) 3036-0000,,Não informado,Sim
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 3392-6767,,Não informado,Não
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Guindaste,(31) 3392-6767,,Não informado,Não
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Kit Iluminação,(31) 3392-6767,,Não informado,Não
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Motoniveladora,(31) 3392-6767,,Não informado,Não
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Retroescavadeira,(31) 3392-6767,,Não informado,Não
+TRIMAK Engenharia e Comércio,Belo Horizonte,MG,Centro Leste,Rolo Compactador,(31) 3392-6767,,Não informado,Não
+Tataki,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 99646-0964,(31) 97513-7500,Marcelo / Dilson,Sim
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Carreta Prancha,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Guincho,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Guindaste,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Guindauto,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Pá Carregadeira,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Retroescavadeira,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraloc Terraplanagem,Belo Horizonte,MG,Centro Leste,Trator,(31) 3017-2500 ,(31) 97121-4500 / (31) 9946-4229,Não informado,Não
+Terraplanagem Vilarinho,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 98502-1229  / (31) 99577-6273,(31) 99119 - 0884,Não informado,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Caminhão Pipa,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Carreta Prancha,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Escavadeira,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Motoniveladora,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Pá Carregadeira,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Retroescavadeira,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Rolo Compactador,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Terraplenagem Guimarães,Belo Horizonte,MG,Centro Leste,Trator,(31) 3495-9108,(31) 98658-3920,Gustavo,Não
+Neto Aterro,Bertioga,SP,Centro Sudeste,Carreta Prancha,(13) 3317-1443,(13) 98123-2321,Não informado,Não
+Neto Aterro,Bertioga,SP,Centro Sudeste,Escavadeira,(13) 3317-1443,(13) 98123-2321,Não informado,Não
+Auto Socorro Figueiredo,Betim,MG,Centro Leste,Guincho,(31) 3511-6712,(31) 99792-9133,Natália,Não
+Auto Socorro Tarugo,Betim,MG,Centro Leste,Guincho,(31) 99943-9721,,Não informado,Não
+Bento Locações Ltda,Betim,MG,Centro Leste,Guindaste,(31) 3597-1284,,Não informado,Não
+Bento Locações Ltda,Betim,MG,Centro Leste,Guindauto,(31) 3597-1284,,Não informado,Não
+MG Locações ,Betim,MG,Centro Leste,Carreta Prancha,(31) 3043-8372,(31) 99847-2564 / (31) 99811-9829,Marcio Pereira,Não
+MG Locações ,Betim,MG,Centro Leste,Escavadeira,(31) 3043-8372,(31) 99847-2564 / (31) 99811-9829,Marcio Pereira,Não
+MG Locações ,Betim,MG,Centro Leste,Retroescavadeira,(31) 3043-8372,(31) 99847-2564 / (31) 99811-9829,Marcio Pereira,Não
+Terramax Terraplanagem,Betim,MG,Centro Leste,Caminhão Basculante,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Caminhão Pipa,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Carreta Prancha,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Escavadeira,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Patrol,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Pá Carregadeira,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Rolo Compactador,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Terramax Terraplanagem,Betim,MG,Centro Leste,Trator,(31) 99665-5178,(31) 99665-5178,Marcio Pereira,Sim
+Braságua Caminhão Pipa,Brasília,DF,Centro Sudeste,Caminhão Pipa,(61) 3027- 2900,,Francisco,Não
+Empremon Equipamentos Ltda,Brasília,DF,Centro Sudeste,Carreta Prancha,(61) 3262-1111,(61) 98117-0809,Tarcísio,Sim
+Empremon Equipamentos Ltda,Brasília,DF,Centro Sudeste,Guindaste,(61) 3262-1111,(61) 98117-0809,Tarcísio,Sim
+Empremon Equipamentos Ltda,Brasília,DF,Centro Sudeste,Guindauto,(61) 3262-1111,(61) 98117-0809,Tarcísio,Sim
+Fênix Caminhão Pipa,Brasília,DF,Centro Sudeste,Caminhão Pipa,(61) 99617-5099,,Divino,Não
+Conven Serviços,Brumadinho,MG,Centro Leste,Carreta Prancha,(31) 2126-6988,(31) 99602-1854,Luiz Henrique,Não
+Conven Serviços,Brumadinho,MG,Centro Leste,Guincho,(31) 2126-6988,(31) 99602-1854,Luiz Henrique,Não
+Conven Serviços,Brumadinho,MG,Centro Leste,Guindaste,(31) 2126-6988,(31) 99602-1854,Luiz Henrique,Não
+Conven Serviços,Brumadinho,MG,Centro Leste,Guindauto,(31) 2126-6988,(31) 99602-1854,Luiz Henrique,Não
+Montcal Engenharia,Brumado,BA,Minas Bahia,Guindaste,(77) 3441-5045,(77)99911-8301,Dudu,Não
+OSS Empreendimentos LTDA (Matriz),Brumado,BA,Minas Bahia,Escavadeira,(77) 3441 1327,(77)99804-7007,Odair/Talita,Sim
+SR Locações,Brumado,BA,Minas Bahia,Caminhão Basculante,(77) 3441-3689,(77) 99999-5979,Andre Luis,Não
+SR Locações,Brumado,BA,Minas Bahia,Caminhão Pipa,(77) 3441-3689,(77) 99999-5979,Andre Luis,Não
+SR Locações,Brumado,BA,Minas Bahia,Guindaste,(77) 3441-3689,(77) 99999-5979,Andre Luis,Não
+SR Locações,Brumado,BA,Minas Bahia,Guindauto,(77) 3441-3689,(77) 99999-5979,Andre Luis,Não
+SR Locações,Brumado,BA,Minas Bahia,Retroescavadeira,(77) 3441-3689,(77) 99999-5979,Andre Luis,Não
+Construtora Termosol,Caetité,BA,Minas Bahia,Escavadeira,(77) 3454-3659,(77) 9994-6751,Não informado,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Caminhão Basculante,(19) 3258-3036,,Clara,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Caminhão Pipa,(19) 3258-3036,,Clara,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Escavadeira,(19) 3258-3036,,Clara,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Pá Carregadeira,(19) 3258-3036,,Clara,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Rolo Compactador,(19) 3258-3036,,Clara,Sim
+Antonini Terraplenagem,Campinas,SP,Centro Sudeste,Trator,(19) 3258-3036,,Clara,Sim
+CFF Terraplanagem,Campinas,SP,Centro Sudeste,Demolidor,,(19) 98752-4745,Jefferson,Não
+CFF Terraplanagem,Campinas,SP,Centro Sudeste,Martelo,,(19) 98752-4745,Jefferson,Não
+CFF Terraplanagem,Campinas,SP,Centro Sudeste,Pá Carregadeira,,(19) 98752-4745,Jefferson,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Caminhão Basculante,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Carreta Prancha,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Escavadeira,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Pá Carregadeira,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Retroescavadeira,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Rolo Compactador,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Retrocamp Terraplanagem,Campinas,SP,Centro Sudeste,Trator,(19) 3256-8203,(19) 4141-1317,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Caçamba,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Escavadeira,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Martelo,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Retroescavadeira,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Rolo Compactador,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Terraplan Terraplenagem,Campinas,SP,Centro Sudeste,Rompedor,(19) 98421-2720  ,(19) 99695-1979 ,Não informado,Não
+Auto Socorro Exclusiva ,Campos Altos,MG,Centro Leste,Carreta Prancha,(37) 3522-3235,(37) 99985-1280,"Eduardo, Crislaine",Não
+Auto Socorro Exclusiva ,Campos Altos,MG,Centro Leste,Guincho,(37) 3522-3235,(37) 99985-1280,"Eduardo, Crislaine",Não
+Auto Socorro Exclusiva ,Campos Altos,MG,Centro Leste,Guindauto,(37) 3522-3235,(37) 99985-1280,"Eduardo, Crislaine",Não
+Auto Socorro FH,Campos Altos,MG,Centro Leste,Gerador,(37) 3426-0380,(34) 99215-8283,Hugo,Não
+Auto Socorro FH,Campos Altos,MG,Centro Leste,Guincho,(37) 3426-0380,(34) 99215-8283,Hugo,Não
+Auto Socorro Luciano,Campos Altos,MG,Centro Leste,Guincho,(37) 98846-8219,,Luciano,Não
+Auto Socorro Vasconcelos,Carmo do Cajuru,MG,Centro Leste,Guincho,(37) 99956-5212,,Não informado,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Caminhão Basculante,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Caminhão Pipa,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Carreta Prancha,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Container,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Escavadeira,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Guincho,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Guindauto,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Pá Carregadeira,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Retroescavadeira,-,(64) 98145-4450,Cesar Savoy,Não
+CSC Serviços,Catalão,GO,Centro Sudeste,Trator,-,(64) 98145-4450,Cesar Savoy,Não
+Marcos Container,Catalão,GO,Centro Sudeste,Guindauto,(64) 99998-7446,(64) 99953-1281,Marcos,Sim
+Ribeiro Remoções Leves e Pesadas,Catalão,GO,Centro Sudeste,Guindaste,(64) 3411-3676,(64) 99959-0529,Bruna ou Madalena,Não
+Ápice Guindastes,Catalão,GO,Centro Sudeste,Guindaste,(64) 3442-6363,(34) 99145-1505,André,Não
+Ápice Guindastes,Catalão,GO,Centro Sudeste,Guindauto,(64) 3442-6363,(34) 99145-1505,André,Não
+Montranel,Catu,BA,Minas Bahia,Caminhão Basculante,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+Montranel,Catu,BA,Minas Bahia,Carreta Prancha,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+Montranel,Catu,BA,Minas Bahia,Escavadeira,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+Montranel,Catu,BA,Minas Bahia,Guindauto,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+Montranel,Catu,BA,Minas Bahia,Pá Carregadeira,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+Montranel,Catu,BA,Minas Bahia,Retroescavadeira,(71) 3641-2460,(71) 99636-8061,Carina Deodato,Sim
+ETS Equipamentos,Contagem,MG,Centro Leste,Caminhão Basculante,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Caminhão Pipa,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Carreta Prancha,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Container,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Escavadeira,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Guincho,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Guindaste,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Guindauto,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Pá Carregadeira,-,(31) 99811-7811,Yanna Nayara,Não
+ETS Equipamentos,Contagem,MG,Centro Leste,Retroescavadeira,-,(31) 99811-7811,Yanna Nayara,Não
+Locar Guindastes e Transportes Intermodais,Contagem,MG,Centro Leste,Guindaste,(31) 3364-4995,,Não informado,Sim
+Planar Equipamentos,Contagem,MG,Centro Leste,Caminhão Basculante,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+Planar Equipamentos,Contagem,MG,Centro Leste,Caminhão Pipa,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+Planar Equipamentos,Contagem,MG,Centro Leste,Container,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+Planar Equipamentos,Contagem,MG,Centro Leste,Escavadeira,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+Planar Equipamentos,Contagem,MG,Centro Leste,Guindauto,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+Planar Equipamentos,Contagem,MG,Centro Leste,Retroescavadeira,(31) 3368-7710,(31) 99948-8006,Carlos Eduardo,Não
+STG Guindastes,Contagem,MG,Centro Leste,Guindaste,(31) 2537-4940,(31) 98448-6915,Matheus Fonseca,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Caminhão Pipa,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Escavadeira,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Motoniveladora,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Pá Carregadeira,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Retroescavadeira,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+TTL Terraplanagem,Contagem,MG,Centro Leste,Rolo Compactador,(31) 3416-6689,(31) 99188-6356,Não informado,Não
+Tonelada Service,Contagem,MG,Centro Leste,Guindaste,,(31) 99941-9713,Não informado,Não
+Viking Logística,Contagem,MG,Centro Leste,Carreta Prancha,(31) 99063-0031,(31) 98381-0030,Ricardo Pereira,Não
+Viking Logística,Contagem,MG,Centro Leste,Guindaste,(31) 99063-0031,(31) 98381-0030,Ricardo Pereira,Não
+Viking Logística,Contagem,MG,Centro Leste,Guindauto,(31) 99063-0031,(31) 98381-0030,Ricardo Pereira,Não
+Irmãos Augusto Terraplanagem,Cravinhos,SP,Centro Sudeste,Caminhão Pipa,(16) 3951-1515,(16) 99125-9147,Não informado,Não
+Irmãos Augusto Terraplanagem,Cravinhos,SP,Centro Sudeste,Carreta Prancha,(16) 3951-1515,(16) 99125-9147,Não informado,Não
+Irmãos Augusto Terraplanagem,Cravinhos,SP,Centro Sudeste,Guindauto,(16) 3951-1515,(16) 99125-9147,Não informado,Não
+Beluqui Locações,Cubatão,SP,Centro Sudeste,Caminhão Basculante,(13) 3464-5475,(16) 99346-0550,Antônio ou Ana Paula,Não
+Beluqui Locações,Cubatão,SP,Centro Sudeste,Escavadeira,(13) 3464-5475,(16) 99346-0550,Antônio ou Ana Paula,Não
+Beluqui Locações,Cubatão,SP,Centro Sudeste,Guindauto,(13) 3464-5475,(16) 99346-0550,Antônio ou Ana Paula,Não
+Beluqui Locações,Cubatão,SP,Centro Sudeste,Pá Carregadeira,(13) 3464-5475,(16) 99346-0550,Antônio ou Ana Paula,Não
+Beluqui Locações,Cubatão,SP,Centro Sudeste,Retroescavadeira,(13) 3464-5475,(16) 99346-0550,Antônio ou Ana Paula,Não
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Demolidor,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Escavadeira,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Macaco Hidráulico,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Martelo,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Pá Carregadeira,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Retroescavadeira,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Bramar Transportes,Cubatão,SP,Centro Sudeste,Rolo Compactador,(13) 3323-5955 ,(13) 3371-9030,Adriana,Sim
+Kraterra,Cubatão,SP,Centro Sudeste,Caminhão Basculante,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Carreta Prancha,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Escavadeira,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Guindaste,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Pá Carregadeira,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Retroescavadeira,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Rolo Compactador,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Kraterra,Cubatão,SP,Centro Sudeste,Trator,(13) 3361-3463,(13) 97401-3392,Carlos ou Fernanda,Não
+Locaforte Brasil,Cubatão,SP,Centro Sudeste,Caminhão Basculante,,(13) 97422-2156,William,Não
+Locaforte Brasil,Cubatão,SP,Centro Sudeste,Escavadeira,,(13) 97422-2156,William,Não
+Locaforte Brasil,Cubatão,SP,Centro Sudeste,Guindauto,,(13) 97422-2156,William,Não
+Locaforte Brasil,Cubatão,SP,Centro Sudeste,Retroescavadeira,,(13) 97422-2156,William,Não
+Planaterra Locação,Cubatão,SP,Centro Sudeste,Caminhão Basculante,(13) 3377-5139,(13) 97605-0013,Karolaine Lima,Não
+Planaterra Locação,Cubatão,SP,Centro Sudeste,Carreta Prancha,(13) 3377-5139,(13) 97605-0013,Karolaine Lima,Não
+Planaterra Locação,Cubatão,SP,Centro Sudeste,Escavadeira,(13) 3377-5139,(13) 97605-0013,Karolaine Lima,Não
+Planaterra Locação,Cubatão,SP,Centro Sudeste,Retroescavadeira,(13) 3377-5139,(13) 97605-0013,Karolaine Lima,Não
+Planaterra Locação,Cubatão,SP,Centro Sudeste,Trator,(13) 3377-5139,(13) 97605-0013,Karolaine Lima,Não
+Castilho Engenharia,Curitiba,PR,Centro Sudeste,Caminhão Basculante,,(63)98112-2222,Welber,Sim
+Castilho Engenharia,Curitiba,PR,Centro Sudeste,Escavadeira,,(63)98112-2222,Welber,Sim
+Castilho Engenharia,Curitiba,PR,Centro Sudeste,Iluminação,,(63)98112-2222,Welber,Sim
+Castilho Engenharia,Curitiba,PR,Centro Sudeste,Retroescavadeira,,(63)98112-2222,Welber,Sim
+Alex Auto Socorro,Divinópolis,MG,Centro Leste,Guincho,(37) 3215-6324,(37) 98809-8909,Alex,Sim
+CS Transportes,Divinópolis,MG,Centro Leste,Carreta Prancha,(37) 3222-7400,(37) 99924-3448,Wellington,Não
+CS Transportes,Divinópolis,MG,Centro Leste,Guincho,(37) 3222-7400,(37) 99924-3448,Wellington,Não
+CS Transportes,Divinópolis,MG,Centro Leste,Guindaste,(37) 3222-7400,(37) 99924-3448,Wellington,Não
+CS Transportes,Divinópolis,MG,Centro Leste,Guindauto,(37) 3222-7400,(37) 99924-3448,Wellington,Não
+Divino Guincho,Divinópolis,MG,Centro Leste,Guincho,(37) 3222-2068,(37) 99914-4348,Luiza/Denise,Sim
+GPD Guindastes,Divinópolis,MG,Centro Leste,Guindaste,(37) 3027-7654,(37) 99987-7654,Não informado,Não
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Caminhão Pipa,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Carreta Prancha,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Escavadeira,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Guincho,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Guindauto,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Motoniveladora,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Pá Carregadeira,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Rolo Compactador,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tranz Duarte Ltda,Divinópolis,MG,Centro Leste,Trator,(37) 3212-2444,(37) 99987-2444,Altamiro Duarte,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Caminhão Basculante,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Caminhão Pipa,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Carreta Prancha,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Escavadeira,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Motoniveladora,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Pá Carregadeira,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Retroescavadeira,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Tromaq Terraplanagem,Divinópolis,MG,Centro Leste,Trator,(37) 3222-2223,(31) 99907-0724,Pedro,Sim
+Maquinas e Transportes Nove de Março Ltda ,Espinosa,MG,Minas Bahia,Escavadeira, (38)99733-0867,(38) 99195-0295,Odilon,Sim
+Maquinas e Transportes Nove de Março Ltda ,Espinosa,MG,Minas Bahia,Pá Carregadeira, (38)99733-0867,(38) 99195-0295,Odilon,Sim
+Maquinas e Transportes Nove de Março Ltda ,Espinosa,MG,Minas Bahia,Retroescavadeira, (38)99733-0867,(38) 99195-0295,Odilon,Sim
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Caminhão Basculante,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Caminhão Pipa,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Carreta Prancha,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Escavadeira,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Pá Carregadeira,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Retroescavadeira,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+São José Terraplanagem,Estiva Gerbi,SP,Centro Sudeste,Rolo Compactador,(19) 3868-9190,(19) 99701-9191,Não informado,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Escavadeira,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Guincho,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Guindaste,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Guindauto,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Retroescavadeira,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Falcão Guindastes,Feira de Santana,BA,Minas Bahia,Trator,(75) 3226-1108,(75) 99220-8218,Filipe Falcão / Luciano,Não
+Comercial JK,Formiga,MG,Minas Rio,Caminhão Basculante,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Comercial JK,Formiga,MG,Minas Rio,Caminhão Pipa,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Comercial JK,Formiga,MG,Minas Rio,Carreta Prancha,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Comercial JK,Formiga,MG,Minas Rio,Escavadeira,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Comercial JK,Formiga,MG,Minas Rio,Pá Carregadeira,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Comercial JK,Formiga,MG,Minas Rio,Retroescavadeira,(37) 3321-1218,(37) 99829-3163,Carlos Roberto,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Escavadeira,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Motoniveladora,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Pá Carregadeira,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Reguladora,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Retroescavadeira,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Rolo Compactador,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Socadora,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+Prumo Engenharia,Formiga,MG,Minas Rio,Trator,(37) 3329-2450,(37)984135300,Lucas Benedito,Sim
+AtendAgua Transportes,Goiânia,GO,Centro Sudeste,Caminhão Pipa,(62) 3597-3648,(62) 98423-3838,Alejandro,Não
+Bartô Água,Goiânia,GO,Centro Sudeste,Caminhão Pipa,,(62) 98175-2312,Bartolomeu,Não
+DCCO rental,Goiânia,GO,Centro Sudeste,Iluminação,,(62)99216 -2377,,
+Fundamental água potável,Goiânia,GO,Centro Sudeste,Caminhão Pipa, (62) 99240-7779,,Não informado,Não
+Guerreiro Transporte de Água Potável,Goiânia,GO,Centro Sudeste,Caminhão Pipa,(62) 98293-0023,,Não informado,Não
+Luiz Munck,Goiânia,GO,Centro Sudeste,Guindauto,(62) 99325-9782,,Luiz,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Escavadeira,(62) 3576-0987,,Não informado,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Patrol,(62) 3576-0987,,Não informado,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Pá Carregadeira,(62) 3576-0987,,Não informado,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Retroescavadeira,(62) 3576-0987,,Não informado,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Rolo Compactador,(62) 3576-0987,,Não informado,Não
+Multiplan Loc,Goiânia,GO,Centro Sudeste,Trator,(62) 3576-0987,,Não informado,Não
+Rota D'água,Goiânia,GO,Centro Sudeste,Caminhão Pipa,(62) 3581-0518,,Márcio,Sim
+Ambitec Soluções Ambientais,Guará,SP,Centro Sudeste,Caminhão Basculante,(16)  3859 -0222,(16) 3859-0250 / (19) 3467-4800,Mayara Leal,Não
+Ambitec Soluções Ambientais,Guará,SP,Centro Sudeste,Caminhão Pipa,(16)  3859 -0222,(16) 3859-0250 / (19) 3467-4800,Mayara Leal,Não
+Ambitec Soluções Ambientais,Guará,SP,Centro Sudeste,Guindauto,(16)  3859 -0222,(16) 3859-0250 / (19) 3467-4800,Mayara Leal,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Caminhão Basculante,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Caminhão Pipa,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Carreta Prancha,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Escavadeira,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Motoniveladora,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Pá Carregadeira,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Retroescavadeira,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Rolo Compactador,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Ibiriterra Locações,Ibirité,MG,Centro Leste,Trator,(31) 3385-9236,(31) 99757-6705,Marina,Não
+Autocarga Transportes,Imperatriz,MA,Centro Norte,Caminhão Pipa,(27) 3296-0943,,Não informado,Não
+Delcare Construtora,Imperatriz,MA,Centro Norte,Caminhão Pipa,(99) 3524-6574,,Não informado,Não
+JMG,Imperatriz,MA,Centro Norte,Escavadeira,,(99) 99189-8140,Não informado,Sim
+A&F auto Socorro,Itaúna,MG,Centro Leste,Guincho,(37) 3242-1474,,Não informado,Não
+Auto Socorro Itaúna,Itaúna,MG,Centro Leste,Guincho,(37) 99873-9587,,Não informado,Não
+Auto Socorro Total Car,Itaúna,MG,Centro Leste,Guincho,(37) 99982-4880,,Não informado,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Carreta Prancha,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Guincho,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Guindaste,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Guindauto,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Retroescavadeira,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Itaúna Transporte,Itaúna,MG,Centro Leste,Trator,(37) 3241-4687,(37) 99951-0111,Elmo Valeriano,Não
+Guindasloc,Itobi,SP,Centro Sudeste,Carreta Prancha,,(19) 99439-6181,Não informado,Não
+Guindasloc,Itobi,SP,Centro Sudeste,Guindaste,,(19) 99439-6181,Não informado,Não
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Carreta Prancha,,(35) 99885-9829,Juliano Lamounier,Sim
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Escavadeira,,(35) 99885-9829,Juliano Lamounier,Sim
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Pá Carregadeira,,(35) 99885-9829,Juliano Lamounier,Sim
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Retroescavadeira,,(35) 99885-9829,Juliano Lamounier,Sim
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Rolo Compactador,,(35) 99885-9829,Juliano Lamounier,Sim
+JVC Terraplanagens e Transporte,Itutinga,MG,Minas Rio,Trator,,(35) 99885-9829,Juliano Lamounier,Sim
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Caminhão Basculante,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Caminhão Pipa,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Escavadeira,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Pá Carregadeira,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Retroescavadeira,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Catão Terraplanagem,Jaguariúna,SP,Centro Sudeste,Rolo Compactador,(19) 3867 -1994,(19) 9762-6109,Antônio Pinto,Não
+Jaguar Munck,Jaguariúna,SP,Centro Sudeste,Guindaste, (19) 97804-7217,(19) 99881-7531,Rafael,Não
+Jaguar Munck,Jaguariúna,SP,Centro Sudeste,Guindauto, (19) 97804-7217,(19) 99881-7531,Rafael,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Caminhão Basculante,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Caminhão Pipa,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Carreta Prancha,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Container,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Escavadeira,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Guindauto,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Pá Carregadeira,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Retroescavadeira,-,(11) 99953-3783,José Carrasco,Não
+Jocater,Jaguariúna,SP,Centro Sudeste,Trator,-,(11) 99953-3783,José Carrasco,Não
+Auto Socorro Lelis,Juatuba,MG,Centro Leste,Guincho,(31) 3535-5060,(31) 97355-2476,Não informado,Não
+Auto Socorro Renatinho,Juatuba,MG,Centro Leste,Guincho,(31) 97510-7852,,Não informado,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Caminhão Basculante,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Caminhão Pipa,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Carreta Prancha,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Container,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Escavadeira,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Motoniveladora,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Pá Carregadeira,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Retroescavadeira,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Rolo Compactador,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+Nivelar Terraplanagem,Juiz de Fora,MG,Minas Rio,Trator,(32) 3236-1500,(32) 98417-8976,Gabriela Campos,Não
+FRV Locação,Lagoa Santa,MG,Centro Leste,Caminhão Pipa,(31) 3681-3574,,Não informado,Não
+FRV Locação,Lagoa Santa,MG,Centro Leste,Pá Carregadeira,(31) 3681-3574,,Não informado,Não
+FRV Locação,Lagoa Santa,MG,Centro Leste,Retroescavadeira,(31) 3681-3574,,Não informado,Não
+Transágua,Lagoa Santa,MG,Centro Leste,Caminhão Pipa,,(31) 99627-5249,Valdir,Não
+ Auto Socorro Lagoa Da Prata,Lagoa da Prata,MG,Centro Leste,Caminhão Pipa,(37) 99921-1102,(37) 99921-1102,Jéssica,Não
+ Auto Socorro Lagoa Da Prata,Lagoa da Prata,MG,Centro Leste,Guincho,(37) 99921-1102,(37) 99921-1102,Jéssica,Não
+Boavia Resgate 24hrs,Lagoa da Prata,MG,Centro Leste,Guindaste,(37) 3449-1600,(37) 99957-9487,Gabriela,Não
+Transautos,Lagoa da Prata,MG,Centro Leste,Guincho,,(37) 99984-9080,Não informado,Não
+Santa Efigenia Terraplanagens,Lavras,MG,Minas Rio,Guindaste,(35) 3822-6070,(35) 99191-2122,Luiz,Sim
+TS Locações,Lavras ,MG,Minas Rio,Caminhão Basculante,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Carreta Prancha,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Container,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Escavadeira long Reach,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Escavadeiras 14 e 22 ton,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Pá Carregadeira,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Retroescavadeira,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+TS Locações,Lavras ,MG,Minas Rio,Trator,(35) 99822-0052,(35) 98429-9640,Cristiano / Joanir,Sim
+Tomba Terra Terraplanagem,Lavras ,MG,Minas Rio,Caminhão Pipa,0,(35) 99968-0016,Diogo,Sim
+Tomba Terra Terraplanagem,Lavras ,MG,Minas Rio,Carreta Prancha,0,(35) 99968-0016,Diogo,Sim
+Tomba Terra Terraplanagem,Lavras ,MG,Minas Rio,Escavadeira,0,(35) 99968-0016,Diogo,Sim
+Tomba Terra Terraplanagem,Lavras ,MG,Minas Rio,Retroescavadeira,0,(35) 99968-0016,Diogo,Sim
+Tomba Terra Terraplanagem,Lavras ,MG,Minas Rio,Trator,0,(35) 99968-0016,Diogo,Sim
+Reboque do Taquinho,Mateus Leme,MG,Centro Leste,Guincho,(31) 99794-4364,,Não informado,Não
+Belmiro Franciscon Escavadeira Norte,Matão SP,SP,Centro Sudeste,Escavadeira,,41 9990-0115,Belmiro Franciscon,
+Belmiro Franciscon Escavadeira Norte,Matão SP,SP,Centro Sudeste,Retro,,41 9990-0115,Belmiro Franciscon,
+Locmais Maquinas Compactas,Minduri,MG,Minas Rio,Escavadeira,(35) 99917-9193,,Sandro,Não
+Locmais Maquinas Compactas,Minduri,MG,Minas Rio,Pá Carregadeira,(35) 99917-9193,,Sandro,Não
+Lomec Comércio e Locação,Mogi Mirim,SP,Centro Sudeste,Gerador,(19) 9664-3616,(19) 9940-5861,Não informado,Não
+Auto Socorro Líder ,Montes Claros,MG,Minas Bahia,Carreta Prancha,(38) 3212-8169,(38) 98814-9896 / (38) 98822-1771 , Luiz e Marcos,Não
+Auto Socorro Líder ,Montes Claros,MG,Minas Bahia,Guindauto,(38) 3212-8169,(38) 98814-9896 / (38) 98822-1771 , Luiz e Marcos,Não
+Auto Socorro Líder ,Montes Claros,MG,Minas Bahia,Lança,(38) 3212-8169,(38) 98814-9896 / (38) 98822-1771 , Luiz e Marcos,Não
+Borboremax,Montes Claros,MG,Minas Bahia,Caminhão Basculante, (38) 3221-1414 / (38) 3221-2243,(38)99986-1414/ (38) 99994-6065,Welton,Sim
+Borboremax,Montes Claros,MG,Minas Bahia,Escavadeira, (38) 3221-1414 / (38) 3221-2243,(38)99986-1414/ (38) 99994-6065,Welton,Sim
+Borboremax,Montes Claros,MG,Minas Bahia,Pá Carregadeira, (38) 3221-1414 / (38) 3221-2243,(38)99986-1414/ (38) 99994-6065,Welton,Sim
+Borboremax,Montes Claros,MG,Minas Bahia,Retroescavadeira, (38) 3221-1414 / (38) 3221-2243,(38)99986-1414/ (38) 99994-6065,Welton,Sim
+Carretos Jorge,Montes Claros,MG,Minas Bahia,Guindaste,(38) 99114-0700,(38) 99855-5657,Edmarcio Custódio,Não
+Carretos Jorge,Montes Claros,MG,Minas Bahia,Guindauto,(38) 99114-0700,(38) 99855-5657,Edmarcio Custódio,Não
+Dimas Transportes,Montes Claros,MG,Minas Bahia,e,(38) 98824-0086,(38) 99848-6650,Dimas,Não
+Gama Locações,Montes Claros,MG,Minas Bahia,Container,(38) 99849-9510,(38) 99985-1918,Bárbara,Não
+Gama Locações,Montes Claros,MG,Minas Bahia,Guindauto,(38) 99849-9510,(38) 99985-1918,Bárbara,Não
+Guindaste Bahia,Montes Claros,MG,Minas Bahia,Carreta Prancha,(38) 3215-1716,(38) 9986-8413 / (38) 99866-1874,Juraci / Kamila,Sim
+Guindaste Bahia,Montes Claros,MG,Minas Bahia,Container,(38) 3215-1716,(38) 9986-8413 / (38) 99866-1874,Juraci / Kamila,Sim
+Guindaste Bahia,Montes Claros,MG,Minas Bahia,Guindaste,(38) 3215-1716,(38) 9986-8413 / (38) 99866-1874,Juraci / Kamila,Sim
+Guindaste Bahia,Montes Claros,MG,Minas Bahia,Guindauto,(38) 3215-1716,(38) 9986-8413 / (38) 99866-1874,Juraci / Kamila,Sim
+Guindastes Montes Claros,Montes Claros,MG,Minas Bahia,Guindaste,,(38) 99915-0705,Thiago,Não
+Guindastes Montes Claros,Montes Claros,MG,Minas Bahia,Guindauto,,(38) 99915-0705,Thiago,Não
+KABIG Locação e Engenharia,Montes Claros,MG,Minas Bahia,Caminhão Pipa,,(38) 99741-4317,Igor,Não
+KABIG Locação e Engenharia,Montes Claros,MG,Minas Bahia,Retroescavadeira,,(38) 99741-4317,Igor,Não
+Locamax,Montes Claros,MG,Minas Bahia,Caminhão Basculante,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Caminhão Pipa,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Escavadeira,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Motoniveladora,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Pá Carregadeira,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Retroescavadeira,-,(38) 99989-3475,Rafael,Não
+Locamax,Montes Claros,MG,Minas Bahia,Trator,-,(38) 99989-3475,Rafael,Não
+RXR Locações Filial,Montes Claros,MG,Minas Bahia,Guindaste,(38) 2211-9200,,Não informado,Não
+RXR Locações Filial,Montes Claros,MG,Minas Bahia,Guindauto,(38) 2211-9200,,Não informado,Não
+RXR Locações Filial,Montes Claros,MG,Minas Bahia,Pá Carregadeira,(38) 2211-9200,,Não informado,Não
+Serquip Tratamento de Resíduos  MG Ltda,Montes Claros,MG,Minas Bahia,Guindauto,(38) 3212-0202 / (31) 3303-2929,,Aline ,Sim
+Forest Serviços,Nova Lima,MG,Centro Leste,Caminhão Basculante,(31) 3654-6181,(31) 99916-6780,Flavio Xavier / Warley,Não
+Forest Serviços,Nova Lima,MG,Centro Leste,Escavadeira,(31) 3654-6181,(31) 99916-6780,Flavio Xavier / Warley,Não
+Forest Serviços,Nova Lima,MG,Centro Leste,Pá Carregadeira,(31) 3654-6181,(31) 99916-6780,Flavio Xavier / Warley,Não
+Lokmax Comércio e Locação de Máquinas,Nova Lima,MG,Centro Leste,Escavadeira,(31) 3234-6072,(31) 99616-0975,Daniel,Sim
+Lokmax Comércio e Locação de Máquinas,Nova Lima,MG,Centro Leste,Pá Carregadeira,(31) 3234-6072,(31) 99616-0975,Daniel,Sim
+Lokmax Comércio e Locação de Máquinas,Nova Lima,MG,Centro Leste,Retroescavadeira,(31) 3234-6072,(31) 99616-0975,Daniel,Sim
+MW Transloc,Nova Lima,MG,Centro Leste,Caminhão Basculante,(11) 991847-4252,(11)991847-4252,Lucio,
+MW Transloc,Nova Lima,MG,Centro Leste,Caminhão Pipa,(11) 991847-4252,(11)991847-4252,Lucio,
+MW Transloc,Nova Lima,MG,Centro Leste,Carreta Prancha,(11) 991847-4252,(11)991847-4252,Lucio,
+MW Transloc,Nova Lima,MG,Centro Leste,Escavadeira,(11) 991847-4252,(11)991847-4252,Lucio,
+MW Transloc,Nova Lima,MG,Centro Leste,Retroescavadeira,(11) 991847-4252,(11)991847-4252,Lucio,
+MW Transloc,Nova Lima,MG,Centro Leste,Trator,(11) 991847-4252,(11)991847-4252,Lucio,
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Caminhão Pipa,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Carreta Prancha,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Caçamba,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Escavadeira,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Motoniveladora,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Pá Carregadeira,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Retroescavadeira,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+Olimaq Orlândia,Orlândia,SP,Centro Sudeste,Rolo Compactador,(16) 3826-0530,(16) 98175-0272,Não informado,Sim
+PW Terraplanagem,Orlândia,SP,Centro Sudeste,Escavadeira,(16) 99998-9093,(16) 99155-7094,Paulo / Patrícia Menegas,Não
+PW Terraplanagem,Orlândia,SP,Centro Sudeste,Trator,(16) 99998-9093,(16) 99155-7094,Paulo / Patrícia Menegas,Não
+Bauko Máquinas,Osasco,SP,Centro Sudeste,Demolidor,(11) 3693-9387,(11) 3693-9334,Não informado,Não
+Almeida Guindastes,Palmas,TO,Centro Norte,Guindaste,,(63) 99979-4010,Almeida,Não
+DCCO Locadora,Palmas,TO,Centro Norte,Gerador,(63) 3232-9090,(63) 99206-4080,Eletildes,Não
+Loc Palmas,Palmas,TO,Centro Norte,Caminhão Pipa,(63) 3215-5252,,Não informado,Não
+Loc Palmas,Palmas,TO,Centro Norte,Caçamba,(63) 3215-5252,,Não informado,Não
+PGN Guindastes,Palmas,TO,Centro Norte,Guindaste,(63) 99914-1004,(63) 99930-6778,Domingos Alves / Cleonice,Não
+Terra Construções,Palmas,TO,Centro Norte,Caminhão Basculante,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Caminhão Pipa,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Carreta Prancha,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Escavadeira,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Pá Carregadeira,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Retroescavadeira,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Terra Construções,Palmas,TO,Centro Norte,Trator,(63) 3217-5161,(63) 99978-2681,Edilson Alves,Não
+Top Guindastes,Palmas,TO,Centro Norte,Guindaste,,(63) 99962-4004,Antonio Almeida,Não
+Regiscar,Pará de Minas,MG,Centro Leste,Carreta Prancha,(37) 99955 1940,,Reginaldo,Não
+Regiscar,Pará de Minas,MG,Centro Leste,Lança,(37) 99955 1940,,Reginaldo,Não
+Transmáquinas,Patos de Minas,MG,Centro Leste,Carreta Prancha,(34) 3814-2719,(34) 98415-9607,Eduarda Gobbi,Não
+Transmáquinas,Patos de Minas,MG,Centro Leste,Guindaste,(34) 3814-2719,(34) 98415-9607,Eduarda Gobbi,Não
+Auto Socorro Brasil,Patrocínio,MG,Centro Leste,Guincho,(34) 3517-8000,,Não informado,Não
+Auto Socorro Camarada,Patrocínio,MG,Centro Leste,Guincho,(34) 3831-1571,(34) 99983-1571,"Camila, Anália, Sebastião",Não
+Auto Socorro Camarada,Patrocínio,MG,Centro Leste,Guindauto,(34) 3831-1571,(34) 99983-1571,"Camila, Anália, Sebastião",Não
+Auto Socorro Planalto,Patrocínio,MG,Centro Leste,Carreta Prancha,(34) 3831-4011,(34) 99902-5180 / (34) 9984-1514 / (34) 99930-4011,Mateus/ Marcelo / Yasmin Lana,Sim
+Auto Socorro Planalto,Patrocínio,MG,Centro Leste,Guincho,(34) 3831-4011,(34) 99902-5180 / (34) 9984-1514 / (34) 99930-4011,Mateus/ Marcelo / Yasmin Lana,Sim
+Auto Socorro Planalto,Patrocínio,MG,Centro Leste,Guindauto,(34) 3831-4011,(34) 99902-5180 / (34) 9984-1514 / (34) 99930-4011,Mateus/ Marcelo / Yasmin Lana,Sim
+Auto Socorro Toda Hora,Patrocínio,MG,Centro Leste,Carreta Prancha,(34) 99958-4423,,José Geraldo,Não
+Auto Socorro União,Patrocínio,MG,Centro Leste,Guincho, (34) 99985-6010,,Humberto,Não
+Auto socorro do Michel,Patrocínio,MG,Centro Leste,Carreta Prancha,(34) 98856-2538,(34) 99808-2567,Michel,Não
+Auto socorro do Michel,Patrocínio,MG,Centro Leste,Guincho,(34) 98856-2538,(34) 99808-2567,Michel,Não
+OKS engenharia ,Paulinia,SP,Centro sudeste,Iluminação,(19)98284-8826,(19)98284-8826,Silvaney Santos,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Caminhão Basculante,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Caminhão Pipa,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Carreta Prancha,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Escavadeira,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Guincho,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Guindaste,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Guindauto,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Pá Carregadeira,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Retroescavadeira,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+CM Locações e Serviços,Pedro Leopoldo,MG,Centro Leste,Trator,(31) 99171-2206,(31) 98308-1096 / (31) 98888-5403,Cristiano / Daniel,Sim
+JE Transportes e Locações,Pedro Leopoldo,MG,Centro Leste,Betoneira,,(31) 99939-1334,Não informado,Não
+JE Transportes e Locações,Pedro Leopoldo,MG,Centro Leste,Caminhão Pipa,,(31) 99939-1334,Não informado,Não
+JE Transportes e Locações,Pedro Leopoldo,MG,Centro Leste,Retroescavadeira,,(31) 99939-1334,Não informado,Não
+MW Distribuição de Água,Pedro Leopoldo,MG,Centro Leste,Caminhão Pipa,(31) 99951-2925,,Willian,Sim
+Locamaq,Pirapora,MG,Minas Bahia,Caminhão Basculante,(38) 3742-1968 ,(38)  99973-9968,Kelmo Bechelene/ Mirian,Não
+Locamaq,Pirapora,MG,Minas Bahia,Caminhão Pipa,(38) 3742-1968 ,(38)  99973-9968,Kelmo Bechelene/ Mirian,Não
+Locamaq,Pirapora,MG,Minas Bahia,Escavadeira,(38) 3742-1968 ,(38)  99973-9968,Kelmo Bechelene/ Mirian,Não
+Locamaq,Pirapora,MG,Minas Bahia,Pá Carregadeira,(38) 3742-1968 ,(38)  99973-9968,Kelmo Bechelene/ Mirian,Não
+Locamaq,Pirapora,MG,Minas Bahia,Retroescavadeira,(38) 3742-1968 ,(38)  99973-9968,Kelmo Bechelene/ Mirian,Não
+Arma Terraplanagem,Pirassununga,SP,Centro Sudeste,Escavadeira,,(19) 99784-0941,Não informado,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Caminhão Basculante,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Caminhão Pipa,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Carreta Prancha,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Escavadeira,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Motoniveladora,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Pá Carregadeira,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+Simpav Terraplanagem,Pirassununga,SP,Centro Sudeste,Retroescavadeira,(19) 2134-2079,(19) 99820-5703,Thiago,Não
+AS Terraplenagem,Pires do Rio,GO,Centro Sudeste,Escavadeira,64 9616-0316,64 9616-0316,Aiton da Silmara,
+AS Terraplenagem,Pires do Rio,GO,Centro Sudeste,Retro,64 9616-0316,64 9616-0316,Aiton da Silmara,
+GTN Locações,Poços de Caldas,MG,Centro Sudeste,Guindaste,(24) 3343-2424, (35) 99809-3016 /(35) 98800-1138 ,Vicente,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Carreta Prancha,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Escavadeira,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Motoniveladora,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Pá Carregadeira,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Retroescavadeira,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Rolo Compactador,(35) 3722-2528,,Não informado,Não
+LC Poços,Poços de Caldas,MG,Centro Sudeste,Trator,(35) 3722-2528,,Não informado,Não
+Nunes Locação e Serviços,Poços de Caldas,MG,Centro Sudeste,Container,(35) 3714-8655,(35) 99809-3016,Janaina,Não
+Nunes Locação e Serviços,Poços de Caldas,MG,Centro Sudeste,Guindaste,(35) 3714-8655,(35) 99809-3016,Janaina,Não
+Nunes Locação e Serviços,Poços de Caldas,MG,Centro Sudeste,Guindauto,(35) 3714-8655,(35) 99809-3016,Janaina,Não
+Resen Munck Serviços de Transporte,Resende,RJ,Minas Rio,Carreta Prancha,(24) 3354-5967,,Não informado,Não
+Resen Munck Serviços de Transporte,Resende,RJ,Minas Rio,Guindaste,(24) 3354-5967,,Não informado,Não
+Resen Munck Serviços de Transporte,Resende,RJ,Minas Rio,Guindauto,(24) 3354-5967,,Não informado,Não
+Resen Munck Serviços de Transporte,Resende,RJ,Minas Rio,Pá Carregadeira,(24) 3354-5967,,Não informado,Não
+Colosso Guindastes e Equipamentos,Ribeirão Preto,SP,Centro Sudeste,Guindaste,(16) 3626-7736,(16) 99786-7446,Não informado,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Caminhão Basculante,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Caminhão Pipa,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Carreta Prancha,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Escavadeira,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Pá Carregadeira,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Retroescavadeira,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+Escavacenter Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Trator,(16) 3621-9137,(16) 99285-9000 / (16) 99602-4252,Giuliano / Marcos Moraes,Sim
+JC Martins Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Caminhão Pipa,(16) 3972-0078,(16) 98235-0403,Não informado,Não
+JC Martins Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Escavadeira,(16) 3972-0078,(16) 98235-0403,Não informado,Não
+JC Martins Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Pá Carregadeira,(16) 3972-0078,(16) 98235-0403,Não informado,Não
+JC Martins Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Rompedor,(16) 3972-0078,(16) 98235-0403,Não informado,Não
+MTT Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Caminhão Basculante,(16) 3628-1611,(16) 99792-3177,Marcelo,Não
+MTT Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Caminhão Pipa,(16) 3628-1611,(16) 99792-3177,Marcelo,Não
+MTT Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Escavadeira,(16) 3628-1611,(16) 99792-3177,Marcelo,Não
+MTT Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Pá Carregadeira,(16) 3628-1611,(16) 99792-3177,Marcelo,Não
+MTT Terraplanagem,Ribeirão Preto,SP,Centro Sudeste,Retroescavadeira,(16) 3628-1611,(16) 99792-3177,Marcelo,Não
+Mamute Guindaste,Ribeirão Preto,SP,Centro Sudeste,Guindaste,(16) 3629-8166,(16) 98124-2735,Não informado,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Caminhão Basculante,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Escavadeira,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Motoniveladora,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Pá Carregadeira,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Retroescavadeira,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Rolo Compactador,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Menegas Terraplanagem ,Ribeirão Preto,SP,Centro Sudeste,Rompedor,(16) 99206-5521,(16) 99155-7094,Amadeu / Patrícia Menegas,Sim
+Reypel Transportes,Ribeirão Preto,SP,Centro Sudeste,Carreta Prancha,(16) 3615-3773, (16) 99177-1682,Não informado,Não
+Reypel Transportes,Ribeirão Preto,SP,Centro Sudeste,Guindaste,(16) 3615-3773, (16) 99177-1682,Não informado,Não
+Reypel Transportes,Ribeirão Preto,SP,Centro Sudeste,Guindauto,(16) 3615-3773, (16) 99177-1682,Não informado,Não
+Lavras Tratores,Ribeirão Vermelho,MG,Minas Rio,Caminhão Basculante,(35) 3013-8316,,Não informado,Não
+Lavras Tratores,Ribeirão Vermelho,MG,Minas Rio,Carreta Prancha,(35) 3013-8316,,Não informado,Não
+Lavras Tratores,Ribeirão Vermelho,MG,Minas Rio,Escavadeira,(35) 3013-8316,,Não informado,Não
+Lavras Tratores,Ribeirão Vermelho,MG,Minas Rio,Motoniveladora,(35) 3013-8316,,Não informado,Não
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Caminhão Basculante,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Caminhão Pipa,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Carreta Prancha,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Escavadeira,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Motoniveladora,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Retroescavadeira,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Rolo Compactador,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+Transrocha Terraplanagem,Ribeirão Vermelho,MG,Minas Rio,Trator,(35)3822-2140,(35) 99923-7630,Leander José,Sim
+P&F Guindastes,Riberão Preto,SP,Centro Sudeste,Guindaste,(16) 3969-3879,(16) 98151-0800,Kleberson Rocha,Não
+P&F Guindastes,Riberão Preto,SP,Centro Sudeste,Guindauto,(16) 3969-3879,(16) 98151-0800,Kleberson Rocha,Não
+BSM Engenharia,Rio das Ostras,RJ,Minas Rio,Guincho,(21) 3613-5828,(21) 99669-6218,Wagner,Não
+FB Terraplanagem,Rio de Janeiro,RJ,Minas Rio,Caminhão Basculante,,(21) 96993-6440,Fabrício Muzy,Não
+FB Terraplanagem,Rio de Janeiro,RJ,Minas Rio,Carreta Prancha,,(21) 96993-6440,Fabrício Muzy,Não
+FB Terraplanagem,Rio de Janeiro,RJ,Minas Rio,Escavadeira,,(21) 96993-6440,Fabrício Muzy,Não
+FB Terraplanagem,Rio de Janeiro,RJ,Minas Rio,Retroescavadeira,,(21) 96993-6440,Fabrício Muzy,Não
+FB Terraplanagem,Rio de Janeiro,RJ,Minas Rio,Trator,,(21) 96993-6440,Fabrício Muzy,Não
+Degraus Aluguel de Equipamentos,Salvador,BA,Minas Bahia,Gerador,(71) 3377-2522,,Não informado,Não
+Dualmaq Locação de Máquinas,Salvador,BA,Minas Bahia,Escavadeira,,(71) 99995-3080,João Júnior,Não
+Dualmaq Locação de Máquinas,Salvador,BA,Minas Bahia,Pá Carregadeira,,(71) 99995-3080,João Júnior,Não
+Dualmaq Locação de Máquinas,Salvador,BA,Minas Bahia,Retroescavadeira,,(71) 99995-3080,João Júnior,Não
+Dualmaq Locação de Máquinas,Salvador,BA,Minas Bahia,Rompedor,,(71) 99995-3080,João Júnior,Não
+Loxam Aluguel de Equipamentos,Salvador,BA,Minas Bahia,Rompedor,(71) 3377-2522,(71) 98218-2990,Nilda,Não
+M&L Locação de Máquinas,Salvador,BA,Minas Bahia,Escavadeira,(71) 3211-3320,,Não informado,Não
+Tercunha - Terraplenagem,Salvador,BA,Minas Bahia,Caminhão Pipa,(71) 3392-0516,(71) 98844-1000,Não informado,Não
+Tercunha - Terraplenagem,Salvador,BA,Minas Bahia,Gerador,(71) 3392-0516,(71) 98844-1000,Não informado,Não
+Tercunha - Terraplenagem,Salvador,BA,Minas Bahia,Motoniveladora,(71) 3392-0516,(71) 98844-1000,Não informado,Não
+Tercunha - Terraplenagem,Salvador,BA,Minas Bahia,Rolo Compactador,(71) 3392-0516,(71) 98844-1000,Não informado,Não
+Trax Terraplenagem,Salvador,BA,Minas Bahia,Escavadeira,(71) 4141-0891,(71) 98620-7963,Não informado,Não
+W Reis Aluguel de Maquinas,Salvador,BA,Minas Bahia,Carreta Prancha,(71) 99989-7283,(71) 98787-5736,Washington,Sim
+W Reis Aluguel de Maquinas,Salvador,BA,Minas Bahia,Escavadeira,(71) 99989-7283,(71) 98787-5736,Washington,Sim
+Água ID Santana,Salvador,BA,Minas Bahia,Caminhão Pipa,(71) 98221-8999,,Izaque,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Caminhão Pipa,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Caçamba,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Gerador,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Guincho,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Pá Carregadeira,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Wb Servicos e Maquinas Ltda,Santa Luz,BA,Minas Bahia,Retroescavadeira,(75) 99194-1928,(75) 9222-7799,Alexsandro,Não
+Equipamax Locação de Equipamentos,Santa Luzia,MG,Centro Leste,Escavadeira,(31) 3500-8225,,Não informado,Não
+Equipamax Locação de Equipamentos,Santa Luzia,MG,Centro Leste,Retroescavadeira,(31) 3500-8225,,Não informado,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Caminhão Basculante,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Carreta Prancha,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Escavadeira,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Guindauto,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Pá Carregadeira,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+SO DIESEL COMERCIAL,Santo Antônio de Pádua,RJ,Minas Rio,Retroescavadeira,(22) 3851-0669,(22) 98115-7958,Leonardo Almeida,Não
+Auto Socorro 2 Irmãos,Santo Antônio do Monte,MG,Centro Leste,Guincho,(37) 3415-1066,,Não informado,Não
+Auto Socorro Samonte,Santo Antônio do Monte,MG,Centro Leste,Carreta Prancha,(37) 3281-1792,(37)999382750 - (37)991177404,Pedro / Thiago,Não
+Auto Socorro Samonte,Santo Antônio do Monte,MG,Centro Leste,Carreta Prancha,(37) 3281-1792,(37)999382750 / (37)991177404,Pedro / Thiago,Não
+Auto Socorro Samonte,Santo Antônio do Monte,MG,Centro Leste,Guincho,(37) 3281-1792,(37)999382750 / (37)991177404,Pedro / Thiago,Não
+Auto Socorro Samonte,Santo Antônio do Monte,MG,Centro Leste,Guincho,(37) 3281-1792,(37)999382750 - (37)991177404,Pedro / Thiago,Não
+Loca Tudo,Santos,SP,Centro Sudeste,Container,(13) 3219-2928,(13) 9772-7627,Não informado,Não
+Loca Tudo,Santos,SP,Centro Sudeste,Gerador,(13) 3219-2928,(13) 9772-7627,Não informado,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Caminhão Basculante,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Carreta Prancha,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Escavadeira,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Pá Carregadeira,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Retroescavadeira,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Rolo Compactador,,(13) 99767-6057,Alex Bessa,Não
+MBessa Locações,Santos,SP,Centro Sudeste,Trator,,(13) 99767-6057,Alex Bessa,Não
+Rental Retros Locação de Máquinas,Santos,SP,Centro Sudeste,Caminhão Basculante,(13) 3273-9007,,Não informado,Não
+Rental Retros Locação de Máquinas,Santos,SP,Centro Sudeste,Escavadeira,(13) 3273-9007,,Não informado,Não
+Rental Retros Locação de Máquinas,Santos,SP,Centro Sudeste,Retroescavadeira,(13) 3273-9007,,Não informado,Não
+Rental Retros Locação de Máquinas,Santos,SP,Centro Sudeste,Trator,(13) 3273-9007,,Não informado,Não
+Comprex Maquinas e Serviços,Serra,ES,Minas Rio,Escavadeira,(27)3298-6005,(27)99981-9306 / (27) 99902-9773,Ronaldo / Vanailza ,Sim
+Comprex Maquinas e Serviços,Serra,ES,Minas Rio,Pá Carregadeira,(27)3298-6005,(27)99981-9306 / (27) 99902-9773,Ronaldo / Vanailza ,Sim
+Comprex Maquinas e Serviços,Serra,ES,Minas Rio,Retroescavadeira,(27)3298-6005,(27)99981-9306 / (27) 99902-9773,Ronaldo / Vanailza ,Sim
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Caminhão Basculante,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Carreta Prancha,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Escavadeira,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Guindaste,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Guindauto,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Pá Carregadeira,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sistermi - Locação de Máquinas,Serra,ES,Minas Rio,Retroescavadeira,(27) 3398-1236,(27) 99890-6560,Roberto José,Não
+Sertemil Engenharia Comercio e Locação,Sertãozinho,SP,Centro Sudeste,Guindaste,(16) 3946-2880,(16) 99624--2880,Márcio,Sim
+Sertemil Engenharia Comercio e Locação,Sertãozinho,SP,Centro Sudeste,Guindaste,(16) 3946-2880,(16) 99624--2880,Márcio,Não
+Locaminas Caminhões Pipa,Sete Lagoas,MG,Centro Leste,Caminhão Pipa,(31) 9 9518-3626,(31) 98517-9106 ,Não informado,Não
+RXR Locações,Sete Lagoas,MG,Centro Leste,Guindaste,(31) 3776-5200,(31) 97112-5200,Lucinéia/Tatiane,Não
+RXR Locações,Sete Lagoas,MG,Centro Leste,Guindauto,(31) 3776-5200,(31) 97112-5200,Lucinéia/Tatiane,Não
+RXR Locações,Sete Lagoas,MG,Centro Leste,Pá Carregadeira,(31) 3776-5200,(31) 97112-5200,Lucinéia/Tatiane,Não
+Tertral,Sete Lagoas,MG,Minas Bahia,Caminhão Basculante,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Caminhão Pipa,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Carreta Prancha,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Escavadeira,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Pá Carregadeira,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Retroescavadeira,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Tertral,Sete Lagoas,MG,Minas Bahia,Trator,(31) 3771-7376,(31) 99768-7505,Leandro Liboreiro,Sim
+Guindastes Brasil,Simões Filho,BA,Minas Bahia,Guindaste,(71) 3393-2010,(71) 99133-6040,Rafael Sousa/Ingrid,Não
+Log Intermodal,Simões Filho,BA,Minas Bahia,Carreta Prancha,(71) 3393-2010,(71) 99701-8605,Elenice Souza,Não
+Log Intermodal,Simões Filho,BA,Minas Bahia,Guindaste,(71) 3393-2010,(71) 99701-8605,Elenice Souza,Não
+Log Intermodal,Simões Filho,BA,Minas Bahia,Guindauto,(71) 3393-2010,(71) 99701-8605,Elenice Souza,Não
+ML Guindastes,Simões Filho,BA,Minas Bahia,Carreta Prancha,(71) 3594-5635,(71) 99687-7788,Germane Lima,Não
+ML Guindastes,Simões Filho,BA,Minas Bahia,Guindaste,(71) 3594-5635,(71) 99687-7788,Germane Lima,Não
+ML Guindastes,Simões Filho,BA,Minas Bahia,Guindauto,(71) 3594-5635,(71) 99687-7788,Germane Lima,Não
+Vertical Equipamentos,Simões Filho,BA,Minas Bahia,Guindaste,(71)3392 4077,(71) 8201-2542,Flávia,Não
+Versatil Rental,Sumaré,SP,Centro Sudeste,Escavadeira,(19) 3883-3097,(19) 99989-2132,Não informado,Sim
+Versatil Rental,Sumaré,SP,Centro Sudeste,Retroescavadeira,(19) 3883-3097,(19) 99989-2132,Não informado,Sim
+GLOBAL DEMOLIDORA LTDA - ME,São Bernardo do Campo,SP,Centro Sudeste,Escavadeira,11 4109-6039,(11) 97100-4117,JEFFERSON jefferson@globaldemolidora.com,Sim
+GLOBAL DEMOLIDORA LTDA - ME,São Bernardo do Campo,SP,Centro Sudeste,Retro,11 4109-6039,(11) 97100-4117,JEFFERSON jefferson@globaldemolidora.com,Sim
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Caminhão Basculante,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Caminhão Pipa,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Carreta Prancha,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Escavadeira,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Patrol,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Pá Carregadeira,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Retroescavadeira,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Trevo Terraplanagem,São Gonçalo dos Campos,BA,Minas Bahia,Trator,(75) 3011-4114,(75) 99955-3790,Sudvan,Não
+Escavater Locação De Máquinas,São Joaquim da Barra,SP,Centro Sudeste,Escavadeira,(16) 99101-8501,,Não informado,Sim
+São João Munck,São João Da Boa Vista,São Paulo,Centro Sudeste,Escavadeira,(19) 99852 6667,(19) 99852 6667,Agiunaldo,
+São João Munck,São João Da Boa Vista,São Paulo,Centro Sudeste,Guindaste,(19) 99852 6667,(19) 99852 6667,Agiunaldo,
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Caminhão Basculante,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Caminhão Pipa,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Carreta Prancha,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Escavadeira,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Guindauto,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Patrol,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Pá Carregadeira,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Retroescavadeira,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplanagem Bassi,São João da Boa Vista,SP,Centro Sudeste,Trator,-,(19) 99304-5963,Laercio Gonçalves,Não
+Terraplenagem Ki Jóia Locação,São João da Boa Vista,SP,Centro Sudeste,Guindauto,(19) 3623-1321,,Não informado,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Caminhão Basculante,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Carreta Prancha,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Escavadeira,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Guindauto,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Pá Carregadeira,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Retroescavadeira,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Terrafat Locação de Máquinas Ltda,São Paulo,SP,Centro Sudeste,Rolo Compactador,(11) 2901-7477,(11) 9-9658-5943 ,Angélica,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Caminhão Basculante,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Caminhão Pipa,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Carreta Prancha,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Escavadeira,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Pá Carregadeira,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+Tquiper Transporte,São Paulo,SP,Centro Sudeste,Retroescavadeira,(11) 2591-0102,(11) 97742-9215,Abel Lemos,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Caminhão Basculante,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Caminhão Pipa,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Carreta Prancha,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Escavadeira,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Guincho,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Motoniveladora,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Pá Carregadeira,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Retroescavadeira,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+DR Construtora,São Roque,SP,Centro Sudeste,Trator,(11) 4712-2231,(11) 99923-6129,Nilton Camilo,Não
+A. S. Engenharia,São Vicente,SP,Centro Sudeste,Guindauto, (13) 3467-3706, (13) 99788-5605,Abner,Sim
+A. S. Engenharia,São Vicente,SP,Centro Sudeste,Retroescavadeira, (13) 3467-3706, (13) 99788-5605,Abner,Sim
+TR locar,Teresina,PI,Centro Norte,Guindaste,,(86) 99926-5577,Romero/Jeane,Não
+PR Locações,Três Corações,MG,Centro Sudeste,Caminhão Pipa,(35) 3231-2693,,Washington,Não
+PR Locações,Três Corações,MG,Centro Sudeste,Escavadeira,(35) 3231-2693,,Washington,Não
+PR Locações,Três Corações,MG,Centro Sudeste,Retroescavadeira,(35) 3231-2693,,Washington,Não
+Decide Estruturas,Uberaba,MG,Centro Sudeste,Guincho,(34) 3311-3302,(34) 99992-8443,Adercídio Pereira,Não
+Decide Estruturas,Uberaba,MG,Centro Sudeste,Guindaste,(34) 3311-3302,(34) 99992-8443,Adercídio Pereira,Não
+Dias Locações Uberaba,Uberaba,MG,Centro Sudeste,Caminhão Pipa,(34)98879-0056,(34)98879-0056,Rodrigo,Sim
+Dias Locações Uberaba,Uberaba,MG,Centro Sudeste,Escavadeira hidráulica,(34)98879-0056,(34)98879-0056,Rodrigo,Sim
+Dias Locações Uberaba,Uberaba,MG,Centro Sudeste,Mini retro,(34)98879-0056,(34)98879-0056,Rodrigo,Sim
+Dias Locações Uberaba,Uberaba,MG,Centro Sudeste,Pa Carregadeira,(34)98879-0056,(34)98879-0056,Rodrigo,Sim
+Dias Locações Uberaba,Uberaba,MG,Centro Sudeste,Retro escavadeira,(34)98879-0056,(34)98879-0056,Rodrigo,Sim
+Garra Locações,Uberaba,MG,Centro Sudeste,Container,(34) 3311-4935 ,(34) 98857-9780 / (34) 99138-9219,Aristides / Vivian,Sim
+Garra Locações,Uberaba,MG,Centro Sudeste,Guindauto,(34) 3311-4935 ,(34) 98857-9780 / (34) 99138-9219,Aristides / Vivian,Sim
+Gigantão,Uberaba,MG,Centro Sudeste,Carreta Prancha,(34) 3336-3232,(34) 99917-5996,Rodrigo,Sim
+Gigantão,Uberaba,MG,Centro Sudeste,Guindaste,(34) 3336-3232,(34) 99917-5996,Rodrigo,Sim
+Gigantão,Uberaba,MG,Centro Sudeste,Guindauto,(34) 3336-3232,(34) 99917-5996,Rodrigo,Sim
+Global Máquinas,Uberaba,MG,Centro Sudeste,Escavadeira,(34) 99978-0604,(34) 99978-0604,Armstrong,
+OSS Empreendimentos LTDA,Uberaba,MG,Centro Sudeste,Escavadeira,(77) 3441 1327,(77)99804-7007,Odair/Talita,Sim
+Pai e Filho Terraplanagem,Uberaba,MG,Centro Sudeste,Escavadeira,(34) 3316-7103,(34) 99994-3171,Não informado,Não
+Pai e Filho Terraplanagem,Uberaba,MG,Centro Sudeste,Rompedor,(34) 3316-7103,(34) 99994-3171,Não informado,Não
+Soma Ambiental,Uberaba,MG,Centro Sudeste,Caminhão Basculante,(34) 3331-7402,(34) 98855-5977,Rafaela,Não
+Soma Ambiental,Uberaba,MG,Centro Sudeste,Guincho,(34) 3331-7402,(34) 98855-5977,Rafaela,Não
+Soma Ambiental,Uberaba,MG,Centro Sudeste,Guindauto,(34) 3331-7402,(34) 98855-5977,Rafaela,Não
+Soma Ambiental,Uberaba,MG,Centro Sudeste,Hidrojato,(34) 3331-7402,(34) 98855-5977,Rafaela,Não
+Soma Ambiental,Uberaba,MG,Centro Sudeste,Hidrovácuo,(34) 3331-7402,(34) 98855-5977,Rafaela,Não
+Uberpipas Serviços e Locações,Uberaba,MG,Centro Sudeste,Caminhão Pipa,(34) 98815-5051,(34) 99640-1228 ,Vanderli,Não
+Cunha e Cunha Locações e Serviços,Uberlândia,MG,Centro Sudeste,Caminhão Pipa,(34) 3238-9999,(34) 99797-2019,Angela Nancy,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 3237-1777,,Não informado,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Motoniveladora,(34) 3237-1777,,Não informado,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Pá Carregadeira,(34) 3237-1777,,Não informado,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Retroescavadeira,(34) 3237-1777,,Não informado,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Rompedor,(34) 3237-1777,,Não informado,Não
+Escad Rental Terraplanagem,Uberlândia,MG,Centro Sudeste,Trator,(34) 3237-1777,,Não informado,Não
+Guindastes Triângulo,Uberlândia,MG,Centro Sudeste,Guindaste,(34) 3228-4000,(34)99818-8099,José Sérgio,Sim
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Caminhão Basculante,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Motoniveladora,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Pá Carregadeira,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Retroescavadeira,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Rolo Compactador,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Loc Máquinas,Uberlândia,MG,Centro Sudeste,Trator,(34) 3224-6707,(34) 9977-7766,Não informado,Não
+Mega Sul Terraplanagem ,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 3224-1258,(34) 99102-3175 ,Não informado,Não
+Oliver Locação,Uberlândia,MG,Centro Sudeste,Caminhão Pipa,(34) 99644-2174,,Rodrigo,Não
+Retro Gomes Máquinas e Equipamentos,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 3222-8017,(34) 99240-3020,Ricardo Gomes,Sim
+Retro Gomes Máquinas e Equipamentos,Uberlândia,MG,Centro Sudeste,Pá Carregadeira,(34) 3222-8017,(34) 99240-3020,Ricardo Gomes,Sim
+Retro Gomes Máquinas e Equipamentos,Uberlândia,MG,Centro Sudeste,Trator,(34) 3222-8017,(34) 99240-3020,Ricardo Gomes,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Caminhão Basculante,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Carreta Prancha,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Guindauto,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Motoniveladora,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Pá Carregadeira,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Transcanuto,Uberlândia,MG,Centro Sudeste,Trator,(34) 99979-1080,(34) 99221-1612,Paulo Canuto,Sim
+Udi Terraplanagem e Locações,Uberlândia,MG,Centro Sudeste,Caminhão Pipa,(34) 99865-8000,(34)  99642-4004,Paulo,Não
+Udi Terraplanagem e Locações,Uberlândia,MG,Centro Sudeste,Escavadeira,(34) 99865-8000,(34)  99642-4004,Paulo,Não
+Udi Terraplanagem e Locações,Uberlândia,MG,Centro Sudeste,Pá Carregadeira,(34) 99865-8000,(34)  99642-4004,Paulo,Não
+Udi Terraplanagem e Locações,Uberlândia,MG,Centro Sudeste,Retroescavadeira,(34) 99865-8000,(34)  99642-4004,Paulo,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Caminhão Basculante,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Carreta Prancha,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Escavadeira,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Pá Carregadeira,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Retroescavadeira,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Rolo Compactador,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Terra Viva Terraplanagem,Valparaíso de Goias,GO,Centro Sudeste,Trator,(61) 3083-2222,(61) 99971-7070,Adilson Roberto,Não
+Laqualog LTDA,Vespasiano,MG,Centro Leste,Caminhão Pipa,,(31) 98375-9002,Marcos,Não
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Caminhão Basculante,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Caminhão Pipa,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Carreta Prancha,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Container,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Escavadeira,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Guindauto,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Pá Carregadeira,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Retroescavadeira,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Carga Pesada Engenharia,Viana,ES,Minas Rio,Trator,(27) 3041-6519,(27) 98871-5330,Marcio ,Sim
+Julio Guincho,Vitória da Conquista,BA,Minas Bahia,Carreta Prancha,(77) 99862-2815,(77) 98825-3908,Julio,Não
+Julio Guincho,Vitória da Conquista,BA,Minas Bahia,Guincho,(77) 99862-2815,(77) 98825-3908,Julio,Não
+Julio Guincho,Vitória da Conquista,BA,Minas Bahia,Guindauto,(77) 99862-2815,(77) 98825-3908,Julio,Não
+Julio Guincho,Vitória da Conquista,BA,Minas Bahia,Lança,(77) 99862-2815,(77) 98825-3908,Julio,Não
+MA Guinchos e Guindastes,Vitória da Conquista,BA,Minas Bahia,Guindaste,(77) 99107-6036,,Não informado,Não
+MA Guinchos e Guindastes,Vitória da Conquista,BA,Minas Bahia,Guindauto,(77) 99107-6036,,Não informado,Não
+MA Guinchos e Guindastes,Vitória da Conquista,BA,Minas Bahia,Macaco Hidráulico,(77) 99107-6036,,Não informado,Não
+MA Guinchos e Guindastes,Vitória da Conquista,BA,Minas Bahia,Reboque,(77) 99107-6036,,Não informado,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Container,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Gerador,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Guindauto,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Plataforma,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Pá Carregadeira,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+MiG Guindastes e Remoção Ltda.,Vitória da Conquista,BA,Minas Bahia,Retroescavadeira,(77) 3422-3413,(77) 99951-0841,Magno Flores / Rodrigo,Não
+Barbosa & Filhos Terraplenagem ,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 3320-6711,,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Carreta Prancha,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Pá Carregadeira,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Retroescavadeira,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Rolo Compactador,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Brasil BR Terraplenagem,Volta Redonda,RJ,Minas Rio,Trator,(24) 3338-0482,(24) 3346-7550,Não informado,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Caminhão Basculante,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Caminhão Pipa,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Carreta Prancha,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Container,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Pá Carregadeira,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Retroescavadeira,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Construvalle Construções,Volta Redonda,RJ,Minas Rio,Trator,(24) 3339-0104,(24) 99977-0425,Romeu,Não
+Coplan Terraplanagem,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 99221-6275,(24) 99988-4745,Não informado,Não
+JV Nacional Locação,Volta Redonda,RJ,Minas Rio,Retroescavadeira,(24) 3343-2424,,Não informado,Não
+Lauer Engenharia Maq e Serv,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 3347-3812,,Não informado,Não
+Lauer Engenharia Maq e Serv,Volta Redonda,RJ,Minas Rio,Guindaste,(24) 3347-3812,,Não informado,Não
+Lauer Engenharia Maq e Serv,Volta Redonda,RJ,Minas Rio,Retroescavadeira,(24) 3347-3812,,Não informado,Não
+Mecânica Três Pontas,Volta Redonda,RJ,Minas Rio,Escavadeira,(24)3342-8038,(24)99994-0536,Claudia,Não
+Nilton Machado Locação,Volta Redonda,RJ,Minas Rio,Guindaste,(24) 3336-2322,(24) 9 9254-0516 ,Não informado,Não
+Nilton Machado Locação,Volta Redonda,RJ,Minas Rio,Guindauto,(24) 3336-2322,(24) 9 9254-0516 ,Não informado,Não
+Terraplanagem Fanuel,Volta Redonda,RJ,Minas Rio,Escavadeira,(24) 99994-3591,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Caminhão Basculante,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Caminhão Pipa,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Carreta Prancha,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Motoniveladora,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Pá Carregadeira,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Retroescavadeira,(24) 3348-1795,,Não informado,Não
+Unisolo Terraplanagem,Volta Redonda,RJ,Minas Rio,Trator,(24) 3348-1795,,Não informado,Não
