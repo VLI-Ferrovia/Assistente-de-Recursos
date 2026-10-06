@@ -7761,9 +7761,9 @@ async function carregarRecursosTerceiros() {
     recursosTerceirosData = [];
 
     try {
-        const response = await fetch(`BASE-RECURSO.csv?v=${Date.now()}`, { cache: 'no-store' });
+        const response = await fetch(`BASE-RECURSO.xlsx?v=${Date.now()}`, { cache: 'no-store' });
         if (!response.ok) {
-            throw new Error(`Falha ao baixar BASE-RECURSO.csv (HTTP ${response.status}).`);
+            throw new Error(`Falha ao baixar BASE-RECURSO.xlsx (HTTP ${response.status}).`);
         }
 
         const parsed = Papa.parse(await response.text(), {
@@ -7775,7 +7775,7 @@ async function carregarRecursosTerceiros() {
         const colunas = (parsed.meta.fields || []).map(normalizarIdentificador);
         if (!colunas.includes('NOME') || !colunas.includes('RECURSO') ||
             !parsed.data.some(row => row.nome || row.recurso)) {
-            throw new Error('BASE-RECURSO.csv sem cabeçalhos ou registros válidos.');
+            throw new Error('BASE-RECURSO.xlsx sem cabeçalhos ou registros válidos.');
         }
 
         recursosTerceirosData = parsed.data
